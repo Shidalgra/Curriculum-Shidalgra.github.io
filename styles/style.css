@@ -19,7 +19,7 @@ body{
 }
 
 /* section start */
-.inicio {
+.start {
   background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
     url('../images/informationTechnology.jpg');
   background-size: cover;
@@ -27,19 +27,19 @@ body{
   color: #fff;
 }
 
-.inicio .contenido-seccion {
+.start .section-container {
   max-width: 1000px;
   margin: auto;
   text-align: center;
   padding: 0 10px;
 }
 
-.inicio .contenido-seccion header {
+.start .section-container header {
   padding: 30px;
 }
 
 /* Menu lateral*/
-.inicio .contenido-seccion header nav {
+.start .section-container header nav {
   position: fixed;
   margin-left: 60px;
   background-color: #940253;
@@ -51,7 +51,7 @@ body{
 
 }
 
-.inicio .contenido-seccion header nav a {
+.start .section-container header nav a {
   display: black;
   color: #fff;
   text-decoration: none;
@@ -60,19 +60,19 @@ body{
 }
 
 /* *********** */
-.inicio .contenido-seccion header .logo {
+.start .section-container header .logo {
   font-weight: bold;
   font-size: 2.5rem;
   font-family: "Yellowtail";
   text-shadow: 0 0 35px #fff;
 }
 
-.inicio .contenido-seccion header .logo .color {
+.start .section-container header .logo .color {
   color: #940253;
   font-family: "Yellowtail";
 }
 
-.inicio .contenido-seccion header .nav-bar {
+.start .section-container header .nav-bar {
   position: fixed;
   background-color: #940253;
   font-size: 20px;
@@ -84,31 +84,31 @@ body{
   transition: .3s;
 }
 
-.inicio .contenido-seccion header .nav-bar:hover {
+.start .section-container header .nav-bar:hover {
   box-shadow: 0 0 35px #fff;
 }
 
-.inicio .contenido-seccion .info {
+.start .section-container .info {
   padding-bottom: 130px;
 }
 
-.inicio .contenido-seccion .info h1 {
+.start .section-container .info h1 {
   font-size: 3rem;
   letter-spacing: 5px;
 }
 
-.inicio .contenido-seccion .info h2 {
+.start .section-container .info h2 {
   font-weight: normal;
   font-size: 20px;
   margin-top: -10px;
   letter-spacing: 2px;
 }
 
-.inicio .contenido-seccion .info .redes{
+.start .section-container .info .redes{
   margin: 20px 0;
 }
 
-.inicio .contenido-seccion .info .redes a{
+.start .section-container .info .redes a{
   display: inline-block;
   text-decoration: none;
   background-color: #000;
@@ -122,17 +122,17 @@ body{
   transition: .3s;
 }
 
-.inicio .contenido-seccion .info .redes a:hover{
+.start .section-container .info .redes a:hover{
   color: #fff;
   background-color: #940253;
   box-shadow: 0 0 20px #fff;
 }
 
-.inicio .contenido-seccion .foto{
+.start .section-container .foto{
   position: relative;
 }
 
-.inicio .contenido-seccion .foto img{
+.start .section-container .foto img{
   max-width: 200px;
   border-radius: 50%;
   border: 5px solid #940253;
@@ -143,53 +143,53 @@ body{
 }
 
 /*Estilos generales*/
-.titulo-seccion{
+.title-section {
   font-family: "Yellowtail";
   font-size: 1.5rem;
 }
 
 /*Seccion sobre mi*/
 
-.sobremi{
+.aboutme {
   background-color: #e6e6e6;
   padding: 140px;
   text-align: center;
 }
 
-.sobremi .contenido-seccion{
+.aboutme  .section-container{
   max-width: 1000px;
   margin: auto;
   padding: 0 10px;
 }
 
-.sobremi .contenido-seccion h3{
+.aboutme  .section-container h3{
   text-transform: uppercase;
   font-size: 30px;
 }
 
-.sobremi .contenido-seccion .especial{
+.aboutme  .section-container .especial{
   color: #940253;
   font-weight: bold;
   margin-top: 158px;
 }
 
-.sobremi .contenido-seccion p{
+.aboutme  .section-container p{
   max-width: 700px;
   margin: auto;
   color: #777;
 }
 
-.sobremi .contenido-seccion .fila{
+.aboutme  .section-container .row{
   display: flex;
   margin-top: 30px;
   justify-content: space-between;
 }
 
-.sobremi .contenido-seccion .fila .col{
+.aboutme  .section-container .row .col{
   width: 30%;
 }
 
-.sobremi .contenido-seccion .fila .col i{
+.aboutme  .section-container .row .col i{
   color: #940253;
   display: inline-block;
   width: 40px;
@@ -199,7 +199,7 @@ body{
   border-radius: 50%;
 }
 
-.sobremi .contenido-seccion .fila .col span{
+.aboutme  .section-container .row .col span{
   display: block;
   font-weight: bold;
   margin: 8px 0;
@@ -218,34 +218,34 @@ body{
   color: #fff;
 }
 
-.habilidades .contenido-seccion {
+.habilidades .section-container {
   max-width: 1000px;
   margin: auto;
   padding: 0 10px;
 }
 
-.habilidades .contenido-seccion h3 {
+.habilidades .section-container h3 {
   text-transform: uppercase;
   font-size: 30px;
 }
 
-.habilidades .contenido-seccion .fila {
+.habilidades .section-container .row {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.habilidades .contenido-seccion .fila col{
+.habilidades .section-container .row col{
   width: 47%;
   text-align: left;
 }
 
-.habilidades .contenido-seccion .fila col .cont-barra {
+.habilidades .section-container .row col .cont-barra {
   display: flex;
   align-items: center;
 }
 
-.habilidades .contenido-seccion .barra {
+.habilidades .section-container .barra {
   display: flex;
   border: 1px solid #940253;
   padding: 2px;
@@ -253,7 +253,7 @@ body{
   margin-right: 10px;
 }
 
-.habilidades .contenido-seccion .barra .e {
+.habilidades .section-container .barra .e {
   background-color: #363636;
   width: 20px;
   height: 30px;
@@ -266,29 +266,29 @@ body{
   text-align: center;
 }
 
-.resumen .contenido-seccion {
+.resumen .section-container {
   max-width: 1000px;
   margin: auto;
   padding: 0 10px;
 }
 
-.resumen .contenido-seccion h3 {
+.resumen .section-container h3 {
   text-transform: uppercase;
   font-size: 30px;
 }
 
-.resumen .contenido-seccion .info {
+.resumen .section-container .info {
   text-align: left;
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.resumen .contenido-seccion .info .col {
+.resumen .section-container .info .col {
   width: 45%;
 }
 
-.resumen .contenido-seccion .info .col .titulo {
+.resumen .section-container .info .col .titulo {
   display: inline-block;
   color: #940253;
   font-weight: bold;
@@ -296,12 +296,26 @@ body{
   padding: 10px;
 }
 
-.resumen .contenido-seccion .info .col table {
+.resumen .section-container .info .col table {
   margin-top: 30px;
   border-collapse: collapse;
 }
 
-.resumen .contenido-seccion .info .col table .datos {
+.resumen .section-container .info .col table .datos {
   width: 40%;
   border-bottom: 1px solid #bab9b9;
 }
+
+.resumen .section-container .info .col table h4 {
+  margin-top: 10px;
+}
+
+.resumen .section-container .info .col table h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.resumen .section-container .info .col table p {
+  font-size: 14px;
+}
+
