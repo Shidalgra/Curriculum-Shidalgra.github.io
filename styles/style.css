@@ -391,9 +391,8 @@ body {
   font-size: 20px;
 }
 
-/*-------------------------------------------------------------------------------------------*/
 /*Section responsive*/
-@media screen and (max-width:900px){
+@media screen and (max-width:800px){
   .skills .section-container .row{
     display: block;
   }
