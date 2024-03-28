@@ -398,7 +398,7 @@ body {
   }
 
   .skills .section-container .row .col {
-    width: 100%;
+    width: 95%;
     text-align: center;
   }
 
@@ -425,7 +425,7 @@ body {
   }
 
   .aboutme .section-container .row .col {
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 20px;
   }
@@ -489,9 +489,9 @@ body {
   .start .section-container header .nav-bar {
     position: fixed;
     background-color: #940253;
-    font-size: 50px;
-    width: 100px;
-    height: 100px;
+    font-size: 35px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     line-height: 50px;
     cursor: pointer;
@@ -500,8 +500,8 @@ body {
 
   /*Icon*/
   .fa-solid, .fas{
-    margin-top: 25px;
-    font-weight: 2000;
+    margin-top: 20px;
+    font-weight: 1000;
   }
 
 
