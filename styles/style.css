@@ -151,7 +151,7 @@ body {
 
 .aboutme {
   background-color: #e6e6e6;
-  padding: 140px;
+  padding: 140px 40px 100px 40px;
   text-align: center;
 }
 
@@ -173,7 +173,7 @@ body {
 }
 
 .aboutme .section-container p {
-  max-width: 700px;
+  max-width: 1200px;
   margin: auto;
   color: #777;
 }
@@ -391,8 +391,22 @@ body {
     text-align: center;
   }
 
+  .skills .section-container .bar {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #940253;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 8px;
+  }
+
   .skills .section-container .row .col .cont-bar {
     justify-content: center;
+  }
+
+  .summary .section-container .info .col table .data {
+    width: 60%;
+    border-bottom: 1px solid #bab9b9;
   }
 
   .aboutme .section-container .row {
