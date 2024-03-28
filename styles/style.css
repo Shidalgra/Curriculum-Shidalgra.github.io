@@ -40,19 +40,30 @@ body {
 /* Menu */
 .start .section-container header nav {
   position: fixed;
-    margin-left: 60px;
+    margin-left: 6%;
     background-color: #940253;
-    padding: 15px;
+    padding: 7%;
     border-radius: 10px;
     text-align: left;
     z-index: 99;
     display: none;
+    opacity: 90%;
 
 }
 
 .start .section-container header nav a {
   display: block;
     color: #fff;
+    font-size: 50px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.start .section-container header nav a:hover {
+  display: block;
+    color: blue;
+    font-size: 50px;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -380,8 +391,9 @@ body {
   font-size: 20px;
 }
 
+/*-------------------------------------------------------------------------------------------*/
 /*Section responsive*/
-@media screen and (max-width:1350px){
+@media screen and (max-width:900px){
   .skills .section-container .row{
     display: block;
   }
@@ -440,6 +452,57 @@ body {
 
   .contact .section-container .row {
     display: block;
+  }
+
+  .start .section-container header nav {
+    position: fixed;
+      margin-left: 15%;
+      background-color: #940253;
+      padding: 7%;
+      border-radius: 10px;
+      text-align: left;
+      z-index: 99;
+      display: none;
+      opacity: 90%;
+  }
+
+  /*menu items*/
+  .start .section-container header nav a {
+    display: block;
+      color: #fff;
+      font-size: 25px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+
+  /*hover menu items*/
+  .start .section-container header nav a:hover {
+    display: block;
+      color: blue;
+      font-size: 25px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+
+  /*Background*/
+  .start .section-container header .nav-bar {
+    position: fixed;
+    background-color: #940253;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  /*Icon*/
+  .fa-solid, .fas{
+    margin-top: 25px;
+    font-weight: 2000;
   }
 
 

@@ -1,12 +1,13 @@
 //Menu lateral
 var visible_menu = false;
 let menu = document.getElementById("nav");
+
+
 function showHideMenu() {
     if (visible_menu == false) {              //if menu hide
         menu.style.display = "block";
         visible_menu = true;
-    }
-    else {
+    } else {
         menu.style.display = "none";
         visible_menu = false;
     }
@@ -20,6 +21,11 @@ for (var x = 0; x < links.length; x++) {
         visible_menu = false;
     }
 }
+
+
+
+
+
 //-------------------------------------------------------------------
 //I create the animations for the skill bars
 function createBar(id_bar) {
