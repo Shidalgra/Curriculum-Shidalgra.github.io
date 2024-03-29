@@ -186,7 +186,7 @@ html {
 }
 
 .aboutme .section-container p {
-  max-width: 700px;
+  max-width: 1000px;
   margin: auto;
   color: #777;
 }
@@ -598,6 +598,12 @@ html {
     letter-spacing: 3.5px;
   }
 
+  .aboutme .section-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+  }
+
   .aboutme .section-container h3 {
     text-transform: uppercase;
     font-size: 20px;
@@ -625,6 +631,7 @@ html {
   .summary .section-container h3 {
     text-transform: uppercase;
     font-size: 20px;
+    margin-bottom: 20px;
   }
 
   .summary .section-container .info .col table .data {
@@ -650,7 +657,7 @@ html {
 
   .summary .section-container .info .col {
     width: 60%;
-    padding-left: 10px;
+    margin-left: 70px;
   }
 }
 
