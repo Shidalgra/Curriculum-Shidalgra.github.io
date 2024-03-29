@@ -10,17 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-  margin: auto;
-}
-
 /* section start */
 .start {
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-    url('../images/informationTechnology.jpg');
+    url("../images/informationTechnology.jpg");
   background-size: cover;
   background-position: center center;
   color: #fff;
@@ -28,9 +21,9 @@ body {
 
 .start .section-container {
   max-width: 1000px;
-    margin: auto;
-    text-align: center;
-    padding: 0 10px;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
 }
 
 .start .section-container header {
@@ -40,33 +33,31 @@ body {
 /* Menu */
 .start .section-container header nav {
   position: fixed;
-    margin-left: 6%;
-    background-color: #940253;
-    padding: 7%;
-    border-radius: 10px;
-    text-align: left;
-    z-index: 99;
-    display: none;
-    opacity: 90%;
-
+  margin-left: 60px;
+  background-color: #940253;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  z-index: 99;
+  display: none;
 }
 
 .start .section-container header nav a {
   display: block;
-    color: #fff;
-    font-size: 50px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 50px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .start .section-container header nav a:hover {
   display: block;
-    color: blue;
-    font-size: 50px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    font-weight: bold;
+  color: blue;
+  font-size: 50px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 /* *********** */
@@ -162,7 +153,7 @@ body {
 
 .aboutme {
   background-color: #e6e6e6;
-  padding: 140px 40px 100px 40px;
+  padding: 140px 0 100px 0;
   text-align: center;
 }
 
@@ -180,11 +171,11 @@ body {
 .aboutme .section-container .especial {
   color: #940253;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .aboutme .section-container p {
-  max-width: 1200px;
+  max-width: 700px;
   margin: auto;
   color: #777;
 }
@@ -229,7 +220,7 @@ body {
 }
 
 .skills .section-container {
-  max-width: 1700px;
+  max-width: 1000px;
   margin: auto;
   padding: 0 10px;
 }
@@ -247,7 +238,7 @@ body {
 
 .skills .section-container .row col {
   width: 47%;
-  text-align: left;
+  text-align: center;
 }
 
 .skills .section-container .row col .cont-bar {
@@ -261,16 +252,18 @@ body {
   border: 1px solid #940253;
   padding: 2px;
   border-radius: 3px;
-  margin: 8px;
+  margin: 10px;
 }
 
 .skills .section-container .bar .e {
   background-color: #363636;
   width: 20px;
   height: 30px;
-  margin-right: 1px;
+  margin-right: 2px;
 }
 
+
+/*Section Summary*/
 .summary {
   background-color: #e6e6e6;
   padding: 140px 0 100px 0;
@@ -322,7 +315,7 @@ body {
 }
 
 .summary .section-container .info .col table h3 {
-  margin-top: 20px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
@@ -356,16 +349,14 @@ body {
   padding: 0 10px;
 }
 
-.contact .section-container .title-contact {
-  color: #fff;
-  font-family: "Yellowtail";
-}
-
-
-
 .contact .section-container h3 {
   text-transform: uppercase;
   font-size: 30px;
+}
+
+.contact .section-container .title-contact {
+  color: #fff;
+  font-family: "Yellowtail";
 }
 
 .contact .section-container .row {
@@ -392,32 +383,18 @@ body {
 }
 
 /*Section responsive*/
-@media screen and (max-width:800px){
-  .skills .section-container .row{
+@media screen and (max-width:800px) {
+  .skills .section-container .row {
     display: block;
   }
 
   .skills .section-container .row .col {
-    width: 95%;
+    width: 100%;
     text-align: center;
-  }
-
-  .skills .section-container .bar {
-    display: inline-flex;
-    justify-content: center;
-    border: 1px solid #940253;
-    padding: 2px;
-    border-radius: 3px;
-    margin: 8px;
   }
 
   .skills .section-container .row .col .cont-bar {
     justify-content: center;
-  }
-
-  .summary .section-container .info .col table .data {
-    width: 60%;
-    border-bottom: 1px solid #bab9b9;
   }
 
   .aboutme .section-container .row {
@@ -425,7 +402,7 @@ body {
   }
 
   .aboutme .section-container .row .col {
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 20px;
   }
@@ -453,45 +430,65 @@ body {
     display: block;
   }
 
+
+
+
+
+  /*Other things*/
+
+  .skills .section-container .bar {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #940253;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 8px;
+  }
+
+  .summary .section-container .info .col table .data {
+    width: 60%;
+    border-bottom: 1px solid #bab9b9;
+  }
+
   .start .section-container header nav {
     position: fixed;
-      margin-left: 15%;
-      background-color: #940253;
-      padding: 7%;
-      border-radius: 10px;
-      text-align: left;
-      z-index: 99;
-      display: none;
-      opacity: 90%;
+    margin-left: 15%;
+    background-color: #940253;
+    padding: 7%;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+    opacity: 90%;
   }
 
   /*menu items*/
   .start .section-container header nav a {
     display: block;
-      color: #fff;
-      font-size: 25px;
-      text-decoration: none;
-      margin-bottom: 10px;
-      font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
   }
 
   /*hover menu items*/
   .start .section-container header nav a:hover {
     display: block;
-      color: blue;
-      font-size: 25px;
-      text-decoration: none;
-      margin-bottom: 10px;
-      font-weight: bold;
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
   }
 
   /*Background*/
   .start .section-container header .nav-bar {
     position: fixed;
     background-color: #940253;
-    font-size: 35px;
-    width: 75px;
-    height: 75px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     line-height: 50px;
     cursor: pointer;
@@ -499,10 +496,9 @@ body {
   }
 
   /*Icon*/
-  .fa-solid, .fas{
-    margin-top: 20px;
-    font-weight: 1000;
+  .fa-solid,
+  .fas {
+    margin-top: px;
+    font-weight: 1300;
   }
-
-
 }
