@@ -383,7 +383,7 @@ html {
 }
 
 /*Section responsive*/
-@media screen and (max-width:800px) {
+@media screen and (max-width:950px) {
   .skills .section-container .row {
     display: block;
   }
@@ -429,10 +429,6 @@ html {
   .contact .section-container .row {
     display: block;
   }
-
-
-
-
 
   /*Other things*/
 
@@ -500,5 +496,12 @@ html {
   .fas {
     margin-top: px;
     font-weight: 1300;
+  }
+
+  .skills .section-container .bar .e {
+    background-color: #363636;
+    width: 15px;
+    height: 20px;
+    margin-right: 1px;
   }
 }
