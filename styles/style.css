@@ -68,6 +68,17 @@ html {
   text-shadow: 0 0 35px #fff;
 }
 
+.start .section-container header .logo .icon-logo {
+  max-width: 100%;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
 .start .section-container header .logo .color {
   color: #940253;
   font-family: "Yellowtail";
@@ -168,7 +179,7 @@ html {
   font-size: 30px;
 }
 
-.aboutme .section-container .especial {
+.aboutme .section-container .special {
   color: #940253;
   font-weight: bold;
   margin-top: 15px;
@@ -503,5 +514,83 @@ html {
     width: 15px;
     height: 20px;
     margin-right: 1px;
+  }
+
+  .contact .section-container h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .contact .section-container .row .col h2 {
+    color: #940253;
+    font-size: 20px;
+  }
+
+  .contact .section-container .row .col span {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .contact .section-container .row .col span a {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .summary .section-container .info .col table h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .summary .section-container .info .col table h4 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .summary .section-container .info .col table .description {
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .summary .section-container .info .col table .average {
+    display: block;
+    color: #940253;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .start .section-container .info h1 {
+    font-size: 1.5rem;
+    letter-spacing: 3.5px;
+  }
+
+  .aboutme .section-container h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .aboutme .section-container .special {
+    color: #940253;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  .aboutme .section-container p {
+    max-width: 700px;
+    margin: 10px;
+    color: #777;
+    font-size: 15px;
+  }
+
+  .skills .section-container h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .summary .section-container h3 {
+    text-transform: uppercase;
+    font-size: 20px;
   }
 }
