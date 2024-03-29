@@ -301,6 +301,7 @@ html {
 
 .summary .section-container .info .col {
   width: 60%;
+  padding-left: 5px;
 }
 
 .summary .section-container .info .col .title {
@@ -446,6 +447,7 @@ html {
 
   .summary .section-container .info {
     display: block;
+    margin: auto;
   }
 
   .summary .section-container .info .col {
@@ -605,14 +607,14 @@ html {
     color: #940253;
     font-weight: bold;
     margin: 10px;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .aboutme .section-container p {
     max-width: 700px;
     margin: 10px;
     color: #777;
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .skills .section-container h3 {
@@ -644,6 +646,11 @@ html {
     border-radius: 10%;
     background-color: blue;
     color: #fff;
+  }
+
+  .summary .section-container .info .col {
+    width: 60%;
+    padding-left: 10px;
   }
 }
 
