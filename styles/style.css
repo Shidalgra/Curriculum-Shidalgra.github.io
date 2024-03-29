@@ -310,6 +310,7 @@ html {
   font-weight: bold;
   border: 2px solid #940253;
   padding: 10px;
+  margin: 60px 0 30px 0;
 }
 
 .summary .section-container .info .col table {
@@ -646,7 +647,7 @@ html {
     background-color: #940253;
     color: #fff;
   }
-  
+
   .summary .section-container .info .col table .description a:hover {
     border: 1px solid #bab9b9;
     padding: 1px 2px 1px 2px;
@@ -660,5 +661,3 @@ html {
     margin-left: 70px;
   }
 }
-
-
