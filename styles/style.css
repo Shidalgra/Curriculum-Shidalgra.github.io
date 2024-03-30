@@ -265,7 +265,7 @@ html {
 .knowledge .section-container .info {
   text-align: left;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 30px;
 }
 
@@ -275,19 +275,43 @@ html {
 }
 
 .knowledge .section-container .info .col table {
-  margin-top: 20px;
-  border-collapse: collapse;
+  padding: 0% 1% 0% 1%;
 }
 
-/*
-ul {
+.knowledge .section-container .info .col table tr {
+  margin: 5px;
+  border-bottom: 1px solid #bab9b9;
+}
+
+.knowledge .section-container .info .col table .titleHeader{
+  max-width: 1200px;
+  margin-bottom: 1px;
+}
+
+.knowledge .section-container .info .col table th{
+  border-bottom: 5px solid #bab9b9;
+  height: 25px;
+  font-weight: bold;
+}
+
+.knowledge .section-container .info .col table ul{
   list-style-type: '✓';
 }
 
-ul li::marker {
-  font-size: 15px;
+.knowledge .section-container .info .col table ul li{
+  font-size: 17px;
 }
-*/
+
+.knowledge .section-container .info .col table ul li p{
+  margin-left: 5px;
+}
+
+.knowledge .section-container .info .col table ul li::marker {
+  font-size: 17px;
+  font-weight: bold;
+  padding-right: 2;
+  color: aquamarine;
+}
 
 /*Section Summary ---------------------------------------------------------------------------------------------------*/
 .summary {
