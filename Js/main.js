@@ -76,7 +76,7 @@ function effectSkills() {
     if (skills_distance >= 300 && intro == false) {
         intro = true;
         const intervalHtml = setInterval(function () {
-            barPaint(html, 20, 0, intervalHtml);
+            barPaint(html, 18, 0, intervalHtml);
         }, 100);
         const intervalCss = setInterval(function () {
             barPaint(css, 19, 1, intervalCss);

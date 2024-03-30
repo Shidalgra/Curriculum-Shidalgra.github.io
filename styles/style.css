@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
 
 * {
   font-family: "Titillium Web";
@@ -6,11 +6,13 @@
   padding: 0;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
 
-/* section start */
+/* section start ---------------------------------------------------------------------------------------------------*/
 .start {
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
     url("../images/info_Technology.jpg");
@@ -30,7 +32,7 @@ html {
   padding: 30px;
 }
 
-/* Menu */
+/* Menu ---------------------------------------------------------------------------------------------------*/
 .start .section-container header nav {
   width: 110px;
   position: fixed;
@@ -56,7 +58,7 @@ html {
 .start .section-container header nav a:hover {
   display: block;
   color: rgb(150, 150, 152);
-  font-size: 25px;
+  font-size: 21px;
   text-decoration: none;
   margin-bottom: 10px;
   font-weight: bold;
@@ -160,13 +162,13 @@ html {
   transform: translateX(-50%);
 }
 
-/*general styles*/
+/*general styles ---------------------------------------------------------------------------------------------------*/
 .title-section {
   font-family: "Yellowtail";
   font-size: 1.5rem;
 }
 
-/*Section about me*/
+/*Section about me ---------------------------------------------------------------------------------------------------*/
 
 .aboutme {
   background-color: #e6e6e6;
@@ -175,7 +177,7 @@ html {
 }
 
 .aboutme .section-container {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: auto;
   padding: 0 10px;
 }
@@ -192,7 +194,7 @@ html {
 }
 
 .aboutme .section-container p {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   color: #777;
 }
@@ -223,12 +225,12 @@ html {
   margin: 8px 0;
 }
 
-/*Section skills*/
-.skills {
+/*Section Knowledge ---------------------------------------------------------------------------------------------------*/
+.knowledge {
   padding: 80px 0 100px 0;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-    url('../images/Skills.jpg');
+    url('../images/Knowledge.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -236,51 +238,58 @@ html {
   color: #fff;
 }
 
-.skills .section-container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 0 10px;
+.knowledge {
+  background-color: #e6e6e6;
+  padding: 140px 0 100px 0;
+  text-align: center;
 }
 
-.skills .section-container h3 {
+.knowledge .section-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
+
+.knowledge .section-container h3 {
   text-transform: uppercase;
   font-size: 30px;
 }
 
-.skills .section-container .row {
+.knowledge .section-container .special {
+  color: #e3dede;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.knowledge .section-container .info {
+  text-align: left;
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.skills .section-container .row col {
-  width: 47%;
-  text-align: center;
+.knowledge .section-container .info .col {
+  width: 60%;
+  padding-left: 5px;
 }
 
-.skills .section-container .row col .cont-bar {
-  display: flex;
-  align-items: center;
+.knowledge .section-container .info .col table {
+  margin-top: 20px;
+  border-collapse: collapse;
 }
 
-.skills .section-container .bar {
-  display: flex;
-  justify-content: center;
-  border: 1px solid #940253;
-  padding: 2px;
-  border-radius: 3px;
-  margin: 10px;
+/*
+ul {
+  list-style-type: '✓';
 }
 
-.skills .section-container .bar .e {
-  background-color: #363636;
-  width: 20px;
-  height: 30px;
-  margin-right: 2px;
+ul li::marker {
+  font-size: 15px;
 }
+*/
 
-
-/*Section Summary*/
+/*Section Summary ---------------------------------------------------------------------------------------------------*/
 .summary {
   background-color: #e6e6e6;
   padding: 140px 0 100px 0;
@@ -374,9 +383,84 @@ html {
   text-align: center;
 }
 
-/*Section contact*/
+.summary .section-container .info .col table .description a:hover {
+  width: 105%;
+  border: 1px solid #a5a4a4;
+  padding: 4px 8px 4px 8px;
+  border-radius: 15%;
+  background-color: #940253;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.summary .section-container .info .col table .description .viewImage:hover {
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 15px #877575;
+}
+
+/*Section skills ---------------------------------------------------------------------------------------------------*/
+.skills {
+  padding: 80px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+    url('../images/Skills.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+}
+
+.skills .section-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.skills .section-container h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.skills .section-container .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.skills .section-container .row col {
+  width: 47%;
+  text-align: center;
+}
+
+.skills .section-container .row col .cont-bar {
+  display: flex;
+  align-items: center;
+}
+
+.skills .section-container .bar {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #940253;
+  padding: 2px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.skills .section-container .bar .e {
+  background-color: #363636;
+  width: 20px;
+  height: 30px;
+  margin-right: 2px;
+}
+
+
+/*Section contact ---------------------------------------------------------------------------------------------------*/
 .contact {
-  background-color: #202020;
+  background-color: #131313;
   padding: 140px 0 100px 0;
   color: #e6e6e6;
   text-align: center;
@@ -419,7 +503,15 @@ html {
 .contact .section-container .row .col span a {
   color: #fff;
   font-size: 20px;
+  text-decoration: none;
 }
+
+.contact .section-container .row .col span a:hover{
+  color: rgb(150, 150, 152);;
+  font-size: 21px;
+  text-decoration: none;
+}
+
 
 
 /*--------------------------------------------*/
@@ -428,7 +520,7 @@ html {
 
 
 
-/*Section responsive*/
+/*Section responsive ---------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:950px) {
   
   .start .section-container header nav {
@@ -443,7 +535,7 @@ html {
     opacity: 90%;
   }
 
-  /*menu items*/
+  /*menu items ---------------------------------------------------------------------------------------------------*/
   .start .section-container header nav a {
     display: block;
     color: #fff;
@@ -453,7 +545,7 @@ html {
     font-weight: bold;
   }
 
-  /*hover menu items*/
+  /*hover menu items ---------------------------------------------------------------------------------------------------*/
   .start .section-container header nav a:hover {
     display: block;
     color: blue;
@@ -463,7 +555,7 @@ html {
     font-weight: bold;
   }
 
-  /*Background*/
+  /*Background ---------------------------------------------------------------------------------------------------*/
   .start .section-container header .nav-bar {
     position: fixed;
     background-color: #940253;
@@ -481,11 +573,24 @@ html {
     letter-spacing: 3.5px;
   }
 
-  /*Icon*/
+  /*Icon ---------------------------------------------------------------------------------------------------*/
   .fa-solid,
   .fa-bars {
     margin-top: 5px;
     font-weight: 1300;
+  }
+
+  .aboutme .section-container .special {
+    color: #940253;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .aboutme .section-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
   }
 
   .aboutme .section-container .row {
@@ -498,22 +603,9 @@ html {
     margin-top: 20px;
   }
 
-  .aboutme .section-container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-  }
-
   .aboutme .section-container h3 {
     text-transform: uppercase;
     font-size: 20px;
-  }
-
-  .aboutme .section-container .special {
-    color: #940253;
-    font-weight: bold;
-    margin: 10px;
-    font-size: 14px;
   }
 
   .aboutme .section-container p {
@@ -521,40 +613,6 @@ html {
     margin: 10px;
     color: #777;
     font-size: 14px;
-  }
-
-  .skills .section-container h3 {
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-  
-  .skills .section-container .row {
-    display: block;
-  }
-
-  .skills .section-container .row .col {
-    width: 100%;
-    text-align: center;
-  }
-
-  .skills .section-container .row .col .cont-bar {
-    justify-content: center;
-  }
-
-  .skills .section-container .bar {
-    display: inline-flex;
-    justify-content: center;
-    border: 1px solid #940253;
-    padding: 2px;
-    border-radius: 3px;
-    margin: 8px;
-  }
-
-  .skills .section-container .bar .e {
-    background-color: #363636;
-    width: 15px;
-    height: 20px;
-    margin-right: 1px;
   }
 
   .summary .section-container .info {
@@ -645,6 +703,40 @@ html {
     margin-left: 70px;
   }
 
+  .skills .section-container h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .skills .section-container .row {
+    display: block;
+  }
+
+  .skills .section-container .row .col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .skills .section-container .row .col .cont-bar {
+    justify-content: center;
+  }
+
+  .skills .section-container .bar {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid #940253;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 8px;
+  }
+
+  .skills .section-container .bar .e {
+    background-color: #363636;
+    width: 15px;
+    height: 20px;
+    margin-right: 1px;
+  }
+
   .contact .section-container .row {
     display: block;
   }
@@ -667,6 +759,7 @@ html {
   .contact .section-container .row .col span a {
     color: #fff;
     font-size: 15px;
+    text-decoration: none;
   }
 
   
