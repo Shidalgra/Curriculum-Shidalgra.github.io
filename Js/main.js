@@ -37,6 +37,12 @@ function createBar(id_bar) {
 }
 
 //I select all the bars to then manipulate them
+let español = document.getElementById("español");
+createBar(español);
+
+let ingles = document.getElementById("ingles");
+createBar(ingles);
+
 let html = document.getElementById("html");
 createBar(html);
 
@@ -64,7 +70,7 @@ createBar(cisco);
 
 
 //I use an array to paint the bars that will be seen in each bar created, it starts at -1 because it starts counting from 0
-let counters = [-1, -1, -1, -1, -1, -1, -1, -1];
+let counters = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
 //this variable is the flag of the function
 let intro = false;
 
@@ -74,29 +80,35 @@ function effectSkills() {
     var skills_distance = window.innerHeight - skills.getBoundingClientRect().top;
     if (skills_distance >= 300 && intro == false) {
         intro = true;
+        const intervalEspañol = setInterval(function () {
+            barPaint(español, 20, 0, intervalHtml);
+        }, 100);
+        const intervalIngles = setInterval(function () {
+            barPaint(ingles, 14, 1, intervalCss);
+        }, 100);
         const intervalHtml = setInterval(function () {
-            barPaint(html, 18, 0, intervalHtml);
+            barPaint(html, 18, 2, intervalHtml);
         }, 100);
         const intervalCss = setInterval(function () {
-            barPaint(css, 19, 1, intervalCss);
+            barPaint(css, 19, 3, intervalCss);
         }, 100);
         const intervalJavascript = setInterval(function () {
-            barPaint(javascript, 17, 2, intervalJavascript);
+            barPaint(javascript, 17, 4, intervalJavascript);
         }, 100);
         const intervalQa = setInterval(function () {
-            barPaint(qa, 18, 3, intervalQa);
+            barPaint(qa, 18, 5, intervalQa);
         }, 100);
         const intervalPhp = setInterval(function () {
-            barPaint(php, 18, 4, intervalPhp);
+            barPaint(php, 18, 6, intervalPhp);
         }, 100);
         const intervalJava = setInterval(function () {
-            barPaint(java, 18, 5, intervalJava);
+            barPaint(java, 18, 7, intervalJava);
         }, 100);
         const intervalSql = setInterval(function () {
-            barPaint(sql, 19, 6, intervalSql);
+            barPaint(sql, 19, 8, intervalSql);
         }, 100);
         const intervalCisco = setInterval(function () {
-            barPaint(cisco, 16, 7, intervalCisco);
+            barPaint(cisco, 16, 9, intervalCisco);
         }, 100);
     }
 }

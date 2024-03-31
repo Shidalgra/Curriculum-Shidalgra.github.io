@@ -139,48 +139,48 @@ html {
 
 /*Section about me ---------------------------------------------------------------------------------------------------*/
 
-.PersonalContacts {
+.Co-WorkersContacts {
     background-color: #e6e6e6;
     padding: 20px 0 20px 0;
     text-align: center;
 }
 
-.PersonalContacts .section-container {
+.Co-WorkersContacts .section-container {
     max-width: 1000px;
-    height: 350px;
+    height: 450px;
     margin: auto;
     padding: 0 10px;
 }
 
-.PersonalContacts .section-container h3 {
+.Co-WorkersContacts .section-container h3 {
     text-transform: uppercase;
     font-size: 20px;
     margin: 0px 80px;
 }
 
-.PersonalContacts .section-container .special {
+.Co-WorkersContacts .section-container .special {
     color: #940253;
     font-weight: bold;
     margin-top: 15px;
 }
 
-.PersonalContacts .section-container p {
+.Co-WorkersContacts .section-container p {
     max-width: 1200px;
     margin: auto;
     color: #777;
 }
 
-.PersonalContacts .section-container .row {
+.Co-WorkersContacts .section-container .row {
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
 }
 
-.PersonalContacts .section-container .row .col {
+.Co-WorkersContacts .section-container .row .col {
     width: 70%;
 }
 
-.PersonalContacts .section-container .row .col i {
+.Co-WorkersContacts .section-container .row .col i {
     color: #940253;
     display: inline-block;
     width: 40px;
@@ -190,7 +190,7 @@ html {
     border-radius: 50%;
 }
 
-.PersonalContacts .section-container .row .col span {
+.Co-WorkersContacts .section-container .row .col span {
     display: block;
     font-weight: bold;
     margin: 8px 0;
@@ -198,17 +198,17 @@ html {
 
 
 @media screen and (max-width:950px) {
-    .PersonalContacts .section-container {
+    .Co-WorkersContacts .section-container {
         max-width: 1000px;
-        height: 450px;
+        height: 550px;
         margin: auto;
-        padding: 0 10px;
+        padding: 0 25px;
     }
 
     .start .section-container {
-        max-width: 20000px;
+        max-width: 2000px;
         margin: auto;
         text-align: center;
-        padding: 0 25px;
+        padding: 0 10px;
     }
 }
