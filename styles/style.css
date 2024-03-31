@@ -240,7 +240,7 @@ html {
 
 .knowledge {
   background-color: #e6e6e6;
-  padding: 140px 0 100px 0;
+  padding: 100px 0 100px 0;
   text-align: center;
 }
 
@@ -335,7 +335,7 @@ html {
 /*Section Summary ---------------------------------------------------------------------------------------------------*/
 .summary {
   background-color: #e6e6e6;
-  padding: 140px 0 100px 0;
+  padding: 100px 0 100px 0;
   text-align: center;
 }
 
@@ -521,6 +521,7 @@ html {
 }
 
 .contact .section-container .title-contact {
+  margin-top: 50px;
   color: #fff;
   font-family: "Yellowtail";
 }
