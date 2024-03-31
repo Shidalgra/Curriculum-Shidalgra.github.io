@@ -24,14 +24,14 @@ body{
 }
 
 .start .section-container {
-  max-width: 1000px;
+  max-width: 20000px;
   margin: auto;
   text-align: center;
   padding: 0 10px;
 }
 
 .start .section-container header {
-  padding: 30px;
+  padding: 15px;
 }
 
 /* Menu ---------------------------------------------------------------------------------------------------*/
@@ -102,6 +102,7 @@ body{
   line-height: 50px;
   cursor: pointer;
   transition: .3s;
+  font-size: 15px;
 }
 
 .start .section-container header .nav-bar:hover {
@@ -617,6 +618,7 @@ body{
     line-height: 50px;
     cursor: pointer;
     transition: .3s;
+    font-size: 15px;
   }
 
   .start .section-container .info h1 {
