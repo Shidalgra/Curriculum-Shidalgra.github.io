@@ -292,6 +292,7 @@ html {
   border-bottom: 5px solid #bab9b9;
   height: 5px;
   font-weight: bold;
+  font-size: 25px;
 }
 
 .knowledge .section-container .info .col table ul{
@@ -315,6 +316,20 @@ html {
 
 .knowledge .section-container .info .col table tr td{
   font-size: 20px;
+  padding-top: 10px;
+}
+
+.knowledge .section-container .info .col table tr th{
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.knowledge .section-container .info .col table tr td ul .contentList {
+  margin-top: 10px;
+}
+
+.knowledge .section-container .info .col table tr .contentList {
+  margin-top: 10px;
 }
 
 /*Section Summary ---------------------------------------------------------------------------------------------------*/
