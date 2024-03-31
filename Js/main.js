@@ -61,11 +61,10 @@ createBar(sql);
 let cisco = document.getElementById("cisco");
 createBar(cisco);
 
-let wordpress = document.getElementById("wordpress");
-createBar(wordpress);
+
 
 //I use an array to paint the bars that will be seen in each bar created, it starts at -1 because it starts counting from 0
-let counters = [-1, -1, -1, -1, -1, -1, -1, -1, -1];
+let counters = [-1, -1, -1, -1, -1, -1, -1, -1];
 //this variable is the flag of the function
 let intro = false;
 
@@ -98,9 +97,6 @@ function effectSkills() {
         }, 100);
         const intervalCisco = setInterval(function () {
             barPaint(cisco, 16, 7, intervalCisco);
-        }, 100);
-        const intervalWordpress = setInterval(function () {
-            barPaint(wordpress, 18, 8, intervalWordpress);
         }, 100);
     }
 }

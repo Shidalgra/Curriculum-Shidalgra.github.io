@@ -245,7 +245,7 @@ html {
 }
 
 .knowledge .section-container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   padding: 0 10px 0 10px;
 }
@@ -271,11 +271,11 @@ html {
 
 .knowledge .section-container .info .col {
   width: 60%;
-  padding-left: 5px;
+  padding-left: 100px;
 }
 
 .knowledge .section-container .info .col table {
-  padding: 0% 1% 0% 1%;
+  margin-top: 50px;
 }
 
 .knowledge .section-container .info .col table tr {
@@ -284,13 +284,13 @@ html {
 }
 
 .knowledge .section-container .info .col table .titleHeader{
-  max-width: 1200px;
+  max-width: 1500px;
   margin-bottom: 1px;
 }
 
 .knowledge .section-container .info .col table th{
   border-bottom: 5px solid #bab9b9;
-  height: 25px;
+  height: 5px;
   font-weight: bold;
 }
 
@@ -299,7 +299,7 @@ html {
 }
 
 .knowledge .section-container .info .col table ul li{
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .knowledge .section-container .info .col table ul li p{
@@ -307,10 +307,14 @@ html {
 }
 
 .knowledge .section-container .info .col table ul li::marker {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   padding-right: 2;
   color: aquamarine;
+}
+
+.knowledge .section-container .info .col table tr td{
+  font-size: 20px;
 }
 
 /*Section Summary ---------------------------------------------------------------------------------------------------*/
