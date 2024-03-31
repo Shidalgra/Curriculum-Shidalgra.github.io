@@ -809,5 +809,100 @@ html {
     width: 90%;
     padding-left: 10px;
   }
+
+
+
+
+
+  .knowledge .section-container h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+  
+  .knowledge .section-container .special {
+    color: #e3dede;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  
+  .knowledge .section-container .info {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .knowledge .section-container .info .col table {
+    margin-top: 10px;
+  }
+  
+  .knowledge .section-container .info .col table tr {
+    margin: 5px;
+    border-bottom: 1px solid #bab9b9;
+  }
+  
+  .knowledge .section-container .info .col table .titleHeader{
+    max-width: 1500px;
+    margin-bottom: 1px;
+  }
+  
+  .knowledge .section-container .info .col table th{
+    border-bottom: 5px solid #bab9b9;
+    height: 5px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .knowledge .section-container .info .col table ul{
+    list-style-type: '✓';
+  }
+  
+  .knowledge .section-container .info .col table ul li{
+    font-size: 15px;
+  }
+  
+  .knowledge .section-container .info .col table ul li p{
+    margin-left: 5px;
+  }
+  
+  .knowledge .section-container .info .col table ul li::marker {
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 2;
+    color: aquamarine;
+  }
+  
+  .knowledge .section-container .info .col table tr td{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  
+  .knowledge .section-container .info .col table tr th{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 }
