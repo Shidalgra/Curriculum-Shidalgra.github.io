@@ -84,7 +84,7 @@ function effectSkills() {
             barPaint(español, 20, 0, intervalHtml);
         }, 100);
         const intervalIngles = setInterval(function () {
-            barPaint(ingles, 14, 1, intervalCss);
+            barPaint(ingles, 13, 1, intervalCss);
         }, 100);
         const intervalHtml = setInterval(function () {
             barPaint(html, 18, 2, intervalHtml);
