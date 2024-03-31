@@ -805,11 +805,9 @@ html {
     text-decoration: none;
   }
 
-  
-
-  
-
-  
-
+  .knowledge .section-container .info .col {
+    width: 90%;
+    padding-left: 10px;
+  }
   
 }
