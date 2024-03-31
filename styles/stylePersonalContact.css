@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.start {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+        url("../images/MainBackgroundPersonalContacts.jpg");
+    background-size: cover;
+    height: 1300px;
+    background-position: center center;
+    color: #fff;
+}
+
+.start .section-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.start .section-container header {
+    padding: 30px;
+}
+
+/* Menu ---------------------------------------------------------------------------------------------------*/
+.start .section-container header nav {
+    width: 110px;
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+
+.start .section-container header nav a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.start .section-container header nav a:hover {
+    display: block;
+    color: rgb(150, 150, 152);
+    font-size: 21px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+/* *********** */
+.start .section-container header .logo {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+}
+
+.start .section-container header .logo .icon-logo {
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.start .section-container header .logo .color {
+    color: #940253;
+    font-family: "Yellowtail";
+}
+
+.start .section-container header .nav-bar {
+    position: fixed;
+    background-color: #940253;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.start .section-container header .nav-bar:hover {
+    box-shadow: 0 0 35px #fff;
+    width: 55px;
+    height: 55px;
+}
+
+.start .section-container .info {
+    padding-bottom: 130px;
+}
+
+.start .section-container .info h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.start .section-container .info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.start .section-container .info .networks {
+    margin: 20px 0;
+}
+
+.start .section-container .info .networks a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #940253;
+    border: 1px solid #940253;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.start .section-container .info .networks a:hover {
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+
+.start .section-container .picture {
+    position: relative;
+}
+
+.start .section-container .picture img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
