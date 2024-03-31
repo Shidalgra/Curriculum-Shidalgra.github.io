@@ -148,7 +148,7 @@ html {
 
 .PersonalContacts .section-container {
     max-width: 1000px;
-    height: 350px;
+    height: 450px;
     margin: auto;
     padding: 0 10px;
 }
@@ -201,16 +201,16 @@ html {
 @media screen and (max-width:950px) {
     .PersonalContacts .section-container {
         max-width: 1000px;
-        height: 450px;
+        height: 550px;
         margin: auto;
-        padding: 0 10px;
+        padding: 0 25px;
     }
 
     .start .section-container {
-        max-width: 20000px;
+        max-width: 2000px;
         margin: auto;
         text-align: center;
-        padding: 0 25px;
+        padding: 0 10px;
     }
 
     .start .section-container header .nav-bar {
