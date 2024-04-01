@@ -347,7 +347,7 @@ body{
 }
 
 .summary .section-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
   padding: 0 10px 0 10px;
 }
@@ -366,7 +366,7 @@ body{
 
 .summary .section-container .info .col {
   width: 60%;
-  padding-left: 5px;
+  padding-left: 60px;
 }
 
 .summary .section-container .info .col .title {
@@ -386,7 +386,7 @@ body{
 }
 
 .summary .section-container .info .col table .data {
-  width: 70%;
+  width: 73%;
   border-bottom: 1px solid #bab9b9;
 }
 
@@ -753,8 +753,8 @@ body{
   }
 
   .summary .section-container .info .col {
-    width: 60%;
-    margin-left: 70px;
+    width: 70%;
+    margin-left: 50px;
   }
 
   .skills .section-container h3 {

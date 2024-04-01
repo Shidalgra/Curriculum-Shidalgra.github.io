@@ -119,10 +119,10 @@ function effectSkills() {
     if (skills_distance >= 300 && intro == false) {
         intro = true;
         const intervalEspañol = setInterval(function () {
-            barPaint(español, 20, 0, intervalHtml);
+            barPaint(español, 20, 0, intervalEspañol);
         }, 100);
         const intervalIngles = setInterval(function () {
-            barPaint(ingles, 19, 1, intervalCss);
+            barPaint(ingles, 19, 1, intervalIngles);
         }, 100);
         const intervalHtml = setInterval(function () {
             barPaint(html, 18, 2, intervalHtml);
