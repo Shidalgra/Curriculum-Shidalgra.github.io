@@ -625,6 +625,12 @@ body{
     font-size: 15px;
   }
 
+  .start .section-container header .nav-bar:hover {
+    box-shadow: 0 0 0px #ffffff00;
+    width: 50px;
+    height: 50px;
+  }
+
   .start .section-container .info h1 {
     font-size: 1.5rem;
     letter-spacing: 3.5px;
