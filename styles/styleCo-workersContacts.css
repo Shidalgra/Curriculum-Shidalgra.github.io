@@ -197,6 +197,9 @@ html {
     margin: 8px 0;
 }
 
+.Co-WorkersContacts .section-container .MadeBy {
+    margin-top: 80px;
+}
 
 @media screen and (max-width:950px) {
     .Co-WorkersContacts .section-container {

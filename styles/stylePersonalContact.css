@@ -197,6 +197,15 @@ html {
     margin: 8px 0;
 }
 
+.PersonalContacts .section-container .row .col span {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.PersonalContacts .section-container .MadeBy {
+    margin-top: 80px;
+}
 
 @media screen and (max-width:950px) {
     .PersonalContacts .section-container {
