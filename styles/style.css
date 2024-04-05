@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   zoom: 100%;
 }
 
@@ -23,11 +23,30 @@ body{
   color: #fff;
 }
 
+.start {
+  animation-duration: 2s;
+  animation-name: slide-in;
+  animation-iteration-count: 1;
+  animation-direction: initial;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .start .section-container {
   max-width: 20000px;
   margin: auto;
   text-align: center;
-  padding: 0 10px;
+  padding: 0px 10px;
 }
 
 .start .section-container header {
@@ -115,9 +134,46 @@ body{
   padding-bottom: 130px;
 }
 
-.start .section-container .info h1 {
-  font-size: 3rem;
-  letter-spacing: 5px;
+.lineStartName {
+  position: relative;
+  font-family: monospace;
+  font-size: 240%;
+  font-weight: bold;
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  letter-spacing: 4px;
+}
+
+/* Animation StartMainName*/
+.anim-typewriterStartName {
+  animation: typewriter 4s steps(16) 2s 1 normal both,
+    blinkTextCursor .5s steps(16) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 16em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, .75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .start .section-container .info h2 {
@@ -288,27 +344,27 @@ body{
   border-bottom: 1px solid #bab9b9;
 }
 
-.knowledge .section-container .info .col table .titleHeader{
+.knowledge .section-container .info .col table .titleHeader {
   max-width: 1500px;
   margin-bottom: 1px;
 }
 
-.knowledge .section-container .info .col table th{
+.knowledge .section-container .info .col table th {
   border-bottom: 5px solid #bab9b9;
   height: 5px;
   font-weight: bold;
   font-size: 25px;
 }
 
-.knowledge .section-container .info .col table ul{
+.knowledge .section-container .info .col table ul {
   list-style-type: '✓';
 }
 
-.knowledge .section-container .info .col table ul li{
+.knowledge .section-container .info .col table ul li {
   font-size: 20px;
 }
 
-.knowledge .section-container .info .col table ul li p{
+.knowledge .section-container .info .col table ul li p {
   margin-left: 5px;
 }
 
@@ -319,12 +375,12 @@ body{
   color: aquamarine;
 }
 
-.knowledge .section-container .info .col table tr td{
+.knowledge .section-container .info .col table tr td {
   font-size: 20px;
   padding-top: 10px;
 }
 
-.knowledge .section-container .info .col table tr th{
+.knowledge .section-container .info .col table tr th {
   font-size: 25px;
   padding: 20px 0 20px 20px;
   border-radius: 15px 15px 0px 0px;
@@ -332,7 +388,7 @@ body{
 
 .knowledge .section-container .info .col table tr td ul .contentList {
   margin-top: 10px;
-  
+
 }
 
 .knowledge .section-container .info .col table tr .contentList {
@@ -371,13 +427,13 @@ body{
 
 .summary .section-container .info .col .title {
   display: flex;
-    justify-content: center;
-    color: #940253;
-    font-weight: bold;
-    border: 2px solid #940253;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 60px 150px 30px 113px;
+  justify-content: center;
+  color: #940253;
+  font-weight: bold;
+  border: 2px solid #940253;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 60px 150px 30px 113px;
 }
 
 .summary .section-container .info .col table {
@@ -558,8 +614,9 @@ body{
   text-decoration: none;
 }
 
-.contact .section-container .row .col span a:hover{
-  color: rgb(150, 150, 152);;
+.contact .section-container .row .col span a:hover {
+  color: rgb(150, 150, 152);
+  ;
   font-size: 21px;
   text-decoration: none;
 }
@@ -567,6 +624,25 @@ body{
 .contact .section-container .MadeBy {
   margin-top: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -578,7 +654,7 @@ body{
 
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:950px) {
-  
+
   .start .section-container header nav {
     position: fixed;
     margin-left: 15%;
@@ -631,16 +707,37 @@ body{
     height: 50px;
   }
 
-  .start .section-container .info h1 {
-    font-size: 1.5rem;
-    letter-spacing: 3.5px;
+
+
+  .lineStartName {
+    position: relative;
+    font-family: monospace;
+    font-size: 150%;
+    font-weight: bold;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+
   }
 
-  /*Icon ---------------------------------------------------------------------------------------------------*/
-  .fa-solid,
-  .fa-bars {
-    margin-top: 5px;
-    font-weight: 1300;
+  /* Animation StartMainName Mobile*/
+  .anim-typewriterStartName {
+    animation: typewriter 4s steps(16) 2s 1 normal both,
+      blinkTextCursor .5s steps(16) infinite normal;
+  }
+
+  .start .section-container .info h2 {
+    font-weight: normal;
+    height: 100px;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
   }
 
   .aboutme .section-container .special {
@@ -771,7 +868,7 @@ body{
     text-transform: uppercase;
     font-size: 20px;
   }
-  
+
   .skills .section-container .row {
     display: block;
   }
@@ -804,7 +901,7 @@ body{
   .contact .section-container .row {
     display: block;
   }
-  
+
   .contact .section-container h3 {
     text-transform: uppercase;
     font-size: 20px;
@@ -839,67 +936,67 @@ body{
     text-transform: uppercase;
     font-size: 25px;
   }
-  
+
   .knowledge .section-container .special {
     color: #e3dede;
     font-weight: bold;
     font-size: 15px;
     margin-top: 15px;
   }
-  
+
   .knowledge .section-container .info {
     text-align: left;
     display: flex;
     justify-content: center;
     margin-top: 10px;
   }
-  
+
   .knowledge .section-container .info .col table {
     margin-top: 10px;
   }
-  
+
   .knowledge .section-container .info .col table tr {
     margin: 5px;
     border-bottom: 1px solid #bab9b9;
   }
-  
-  .knowledge .section-container .info .col table .titleHeader{
+
+  .knowledge .section-container .info .col table .titleHeader {
     max-width: 1500px;
     margin-bottom: 1px;
   }
-  
-  .knowledge .section-container .info .col table th{
+
+  .knowledge .section-container .info .col table th {
     border-bottom: 5px solid #bab9b9;
     height: 5px;
     font-weight: bold;
     font-size: 25px;
   }
-  
-  .knowledge .section-container .info .col table ul{
+
+  .knowledge .section-container .info .col table ul {
     list-style-type: '✓';
   }
-  
-  .knowledge .section-container .info .col table ul li{
+
+  .knowledge .section-container .info .col table ul li {
     font-size: 15px;
   }
-  
-  .knowledge .section-container .info .col table ul li p{
+
+  .knowledge .section-container .info .col table ul li p {
     margin-left: 5px;
   }
-  
+
   .knowledge .section-container .info .col table ul li::marker {
     font-size: 15px;
     font-weight: bold;
     padding-right: 2;
     color: aquamarine;
   }
-  
-  .knowledge .section-container .info .col table tr td{
+
+  .knowledge .section-container .info .col table tr td {
     font-size: 15px;
     padding-top: 10px;
   }
-  
-  .knowledge .section-container .info .col table tr th{
+
+  .knowledge .section-container .info .col table tr th {
     font-size: 20px;
     padding-top: 10px;
   }
@@ -911,26 +1008,4 @@ body{
     border-radius: 15px 15px 15px 15px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 }
