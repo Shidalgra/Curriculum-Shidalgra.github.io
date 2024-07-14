@@ -55,7 +55,7 @@ body {
   
   /* Menu ---------------------------------------------------------------------------------------------------*/
   .start .section-container header nav {
-    width: 220px;
+    width: 110px;
     position: fixed;
     margin-left: 60px;
     background-color: #940253;
