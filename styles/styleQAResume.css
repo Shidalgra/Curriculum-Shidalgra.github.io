@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+
+* {
+  font-family: "Titillium Web";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  zoom: 100%;
+}
+
+/* section start ---------------------------------------------------------------------------------------------------*/
+.start {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+      url("../images/Knowledge.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+  }
+  
+  .start {
+    animation-duration: 2s;
+    animation-name: slide-in;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+  }
+  
+  @keyframes slide-in {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .start .section-container {
+    max-width: 20000px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  
+  .start .section-container header {
+    padding: 15px;
+  }
+  
+  /* Menu ---------------------------------------------------------------------------------------------------*/
+  .start .section-container header nav {
+    width: 110px;
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+  }
+  
+  .start .section-container header nav a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: .3s;
+  }
+  
+  .start .section-container header nav a:hover {
+    display: block;
+    color: rgb(150, 150, 152);
+    font-size: 21px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: .3s;
+  }
+  
+  /* *********** */
+  .start .section-container header .logo {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+  }
+  
+  .start .section-container header .logo .icon-logo {
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  
+  .start .section-container header .logo .color {
+    color: #940253;
+    font-family: "Yellowtail";
+  }
+  
+  .start .section-container header .nav-bar {
+    position: fixed;
+    background-color: #940253;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 15px;
+  }
+  
+  .start .section-container header .nav-bar:hover {
+    box-shadow: 0 0 35px #fff;
+    width: 55px;
+    height: 55px;
+  }
+  
+  .start .section-container .info {
+    padding-bottom: 130px;
+  }
+  
+  .lineStartName {
+    position: relative;
+    font-family: monospace;
+    font-size: 240%;
+    font-weight: bold;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    letter-spacing: 4px;
+  }
+  
+  /* Animation StartMainName*/
+  .anim-typewriterStartName {
+    animation: typewriter 4s steps(16) 2s 1 normal both,
+      blinkTextCursor .5s steps(16) infinite normal;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 16em;
+    }
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: rgba(255, 255, 255, .75);
+    }
+  
+    to {
+      border-right-color: transparent;
+    }
+  }
+  
+  .start .section-container .info h2 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+  }
+  
+  .start .section-container .info .networks {
+    margin: 20px 0;
+  }
+  
+  .start .section-container .info .networks a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #940253;
+    border: 1px solid #940253;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+  }
+  
+  .start .section-container .info .networks a:hover {
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+  }
+  
+  .start .section-container .picture {
+    position: relative;
+  }
+  
+  .start .section-container .picture img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+  }
+  
+  /*general styles ---------------------------------------------------------------------------------------------------*/
+  .title-section {
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+  }
+
+  /*Section about me ---------------------------------------------------------------------------------------------------*/
+
+.aboutme {
+    background-color: #fcfcfc;
+    padding: 140px 0 100px 0;
+    text-align: center;
+  }
+  
+  .aboutme .section-container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  
+  .aboutme .section-container h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+  .aboutme .section-container .special {
+    color: #940253;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .aboutme .section-container p {
+    max-width: 1200px;
+    margin: auto;
+    color: #777;
+    text-align: center;
+  }
+  
+  .aboutme .section-container .row {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  
+  .aboutme .section-container .row .col {
+    width: 70%;
+    padding: 0px 50px 0px 50px;
+  }
+  
+  .aboutme .section-container .row .col i {
+    color: #940253;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #940253;
+    line-height: 40px;
+    border-radius: 50%;
+  }
+  
+  .aboutme .section-container .row .col span {
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------*/
+/*************     Responsive     *************/
+/*--------------------------------------------*/
+
+
+
+/*Section responsive ---------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:950px) {
+
+    .start .section-container header nav {
+      position: fixed;
+      margin-left: 15%;
+      background-color: #940253;
+      padding: 7%;
+      border-radius: 10px;
+      text-align: left;
+      z-index: 99;
+      display: none;
+      opacity: 90%;
+    }
+  
+    /*menu items ---------------------------------------------------------------------------------------------------*/
+    .start .section-container header nav a {
+      display: block;
+      color: #fff;
+      font-size: 25px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    /*hover menu items ---------------------------------------------------------------------------------------------------*/
+    .start .section-container header nav a:hover {
+      display: block;
+      color: blue;
+      font-size: 25px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    /*Background ---------------------------------------------------------------------------------------------------*/
+    .start .section-container header .nav-bar {
+      position: fixed;
+      background-color: #940253;
+      font-size: 25px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      line-height: 50px;
+      cursor: pointer;
+      transition: .3s;
+      font-size: 15px;
+    }
+  
+    .start .section-container header .nav-bar:hover {
+      box-shadow: 0 0 0px #ffffff00;
+      width: 50px;
+      height: 50px;
+    }
+  
+  
+  
+    .lineStartName {
+      position: relative;
+      font-family: monospace;
+      font-size: 150%;
+      font-weight: bold;
+      border-right: 2px solid rgba(255, 255, 255, .75);
+      top: 50%;
+      width: 24em;
+      margin: 0 auto;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);
+      letter-spacing: 2px;
+  
+    }
+  
+    /* Animation StartMainName Mobile*/
+    .anim-typewriterStartName {
+      animation: typewriter 4s steps(16) 2s 1 normal both,
+        blinkTextCursor .5s steps(16) infinite normal;
+    }
+  
+    .start .section-container .info h2 {
+      font-weight: normal;
+      height: 100px;
+      font-size: 20px;
+      margin-top: -10px;
+      letter-spacing: 2px;
+    }
+  
+    .aboutme .section-container .special {
+      color: #940253;
+      font-weight: bold;
+      margin: 10px;
+      font-size: 14px;
+    }
+  
+    .aboutme .section-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 10px;
+    }
+  
+    .aboutme .section-container .row {
+      display: block;
+    }
+  
+    .aboutme .section-container .row .col {
+      width: 80%;
+      margin: auto;
+      margin-top: 20px;
+    }
+  
+    .aboutme .section-container h3 {
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+  
+    .aboutme .section-container p {
+      max-width: 700px;
+      margin: 10px;
+      color: #777;
+      font-size: 14px;
+    }
+
+}
+
+
