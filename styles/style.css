@@ -385,6 +385,13 @@ body {
   padding-top: 10px;
 }
 
+.separate{
+  margin-left: 10px;
+}
+.separatePoint{
+  margin-left: 5px;
+}
+
 .knowledge .section-container .info .col table tr th {
   font-size: 25px;
   padding: 20px 0 20px 20px;
@@ -399,6 +406,18 @@ body {
   margin-top: 10px;
 }
 
+/*Columns point details ---------------------------------------------------------------------------------------------------*/
+.infoPoints {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.infoPoints .infoPointsCol {
+  width: 60%;
+  padding-left: 30px;
+}
 
 /*Section Summary ---------------------------------------------------------------------------------------------------*/
 .summary {
@@ -1010,3 +1029,34 @@ body {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
