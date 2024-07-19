@@ -380,11 +380,6 @@ body {
   padding-top: 10px;
 }
 
-.knowledge .section-container .info .col table tr td {
-  font-size: 20px;
-  padding-top: 10px;
-}
-
 .separate{
   margin-left: 10px;
 }
@@ -394,7 +389,7 @@ body {
 
 .knowledge .section-container .info .col table tr th {
   font-size: 25px;
-  padding: 20px 0 20px 20px;
+  padding: 30px 10px 5px 10px;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -1023,7 +1018,7 @@ body {
 
   .knowledge .section-container .info .col table tr th {
     font-size: 20px;
-    padding-top: 10px;
+    padding: 30px 0px 0px 0px;
   }
 
   .knowledge .section-container .info .col {
