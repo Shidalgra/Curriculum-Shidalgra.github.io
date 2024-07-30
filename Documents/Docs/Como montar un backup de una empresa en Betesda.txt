@@ -1,0 +1,36 @@
+No vamos al server de Bases de datos :9801
+
+buscamos betesda
+damos clic derecho
+seleccionamos tasks 
+seleccionamos Restore
+seleccionamos Database
+
+Se nos abrira una ventana
+
+1-  seleccionamos device
+2-  buscamos en los tres puntos
+3-  Le damos add  se nos abrira una ventana
+
+4-  En la jerarquia de la raiz de carpetas a la izquierda
+5-  Subimos y buscamos la carpeta Backup damos clic
+6-  A la derecha abrira varias archivos .bak buscamos el que nosotros necesitemos hacer backup
+7-  Cuando lo encontramos le damos clic y le damos en OK y luego en la ventana de add damos de nuevo en OK
+8-  en la jerarquia de la iz damos en "options"
+9-  quitamos el "take tail-log"
+10- Escogemos la que dice "override the existing database" y la de "close existing connections to destination database"
+11- Damos en ok y esperamos a que se termine de cargar la barra de arriba a la derecha
+
+
+Luego en la jerarquia de la iz nos vamos hacia arriba y le damos click 
+derecho a databases Seguido le damos Refresh
+
+nos fijamos que abajo en las bases de datos ninguna diga restoring 
+(mientras esperamos a que termine el Expanding)
+
+luego en el sistema por ultimo nos vamos a ver que todo este funcionando 
+bien en betesta con la base de datos que hicimos backup
+
+
+
+

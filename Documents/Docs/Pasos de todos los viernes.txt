@@ -1,0 +1,48 @@
+Hay que hacer dos cosas
+
+   1 	todos los viernes, me meto al servidor 45.224.202.11:9801 de Base de datos
+
+	cuando ingreso buscamos en SQL que casi siempre esta abierta, en caso de que no lo buscamos para abrirlo
+
+	buscamos el query Verificar Logs de bases de datos
+	lo corremos con execute sin marcar nada
+
+	tira la cantidad de peso LogSizeMB
+
+	se revisa que el que esta de primero no sobrepase los 500MB
+
+	si se pasa alguno nos metemos al query "borrar logs de todo", buscamos el que se sobrepasa y seleccionamos
+	desde el "use" hasta el "go" y lo ejecutamos
+
+	volvemos a verificar logs de bases de datos el peso en LogSizeMB
+
+
+
+   2	Crear los backups
+		
+	nos vamos a Administrador de archivos
+	nos posicionamos en localdisk C:\
+	buscamos la carpeta Backups
+
+	Elimino todos los backups menos las carpetas ctrl+a
+
+	regreso al sql
+
+	busco el query que dice Backup.sql y le doy execute
+
+	abrimos el chrome del server
+	me voy a google
+	inicio sesion en google con mi cuenta
+	nos vamos a drive en aplicaciones que estan a la par de la foto de usuario
+	nos vamos al apartado "compartido conmigo"
+	ingreso a BackupBasesDatos2018Clientes con doble click
+	
+ 	tenemos que cargar los backups
+	ingresamos a las carpetas 
+	borramos el backup que esta y cargamos el que se genero en el C:\Backups
+	cada carpeta tiene que hacerse por separado...
+
+	
+	 
+
+

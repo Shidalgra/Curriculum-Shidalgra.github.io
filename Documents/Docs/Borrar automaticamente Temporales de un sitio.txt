@@ -1,0 +1,348 @@
+server de sites 9803
+
+raiz de c:
+
+carpeta actualizar
+
+abrimos task scheduler para fijarnos si esta activo la tarea de borrado
+
+buscamos pestaña actions abajo
+buscamos archivo SmartSwapBorraPrivateTempStorage.bat en la carpeta actualizar
+
+damos clic derecho editar
+
+buscamos la compañia que queremos que se haga automaticamente en C:\inetpub\wwwroot\Sites
+
+copiamos exactamente igual a como se llama la carpeta
+
+
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\710love\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\ASEAMSA\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Aseincae\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asesolera\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asetropical\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asimaz\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asobacenx\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asocatie\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asoconapam\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asoecct\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asofifo\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asopoliart\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Asoprival\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\AsoStia\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\AtriumERP\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\AtriumERPBackup\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Automotors\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\ASOLCE\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Betesda\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\bccrsinpe\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Bluetech\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Coopensionados\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Coopesec\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Daitomo\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Essential\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\FerreKoki\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\FerreKoki2\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Galeanos\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Geometrico\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\GPConsultores\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\GrupoLa\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\GrupoZumar\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\GrupoRico\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Independientes\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\JRT\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\MasterMoneyTransfer\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Mictec\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\MMTPruebas\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\MSC\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\MSLI\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Optiprime\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Piplatam\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Plus\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Pruebas\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Pyme\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\QA\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Quikypay\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\RIPlus\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\RNPConta\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Swapp\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Synergy\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Tecnomed\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Versatec\PrivateTempStorage\*
+DEL /F/Q/S C:\inetpub\wwwroot\Sites\Xpider\PrivateTempStorage\*
+
+
+
+
+del C:\inetpub\wwwroot\Sites\Asecabri\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\710love\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Aseincae\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asesolera\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asetropical\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asimaz\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Aso8mogo\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asocatie\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asoconapam\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asoecct\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asofifo\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asopoliart\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asoprival\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\AsoStia\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Automotors\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\ASOLCE\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\bccrsinpe\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Betesda\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Bluetech\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Coopensionados\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Coopesec\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Daitomo\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Essential\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\FerreKoki\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\FerreKoki2\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Galeanos\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Geometrico\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\GPConsultores\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\GrupoLa\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\GrupoRico\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Independientes\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\JRT\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\MasterMoneyTransfer\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Mictec\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\MSC\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\MSLI\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Optiprime\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Piplatam\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Plus\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Pruebas\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Pyme\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\QA\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\RIPlus\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\RNPConta\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Swapp\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Synergy\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Tecnomed\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Versatec\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Xpider\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Abacus\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\GrupoZumar\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\ASEAMSA\Reportes\*.txt
+del C:\inetpub\wwwroot\Sites\Asobacex\Reportes\*.txt
+
+
+del C:\inetpub\wwwroot\Sites\Asecabri\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\710love\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Aseincae\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asesolera\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asetropical\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asimaz\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Aso8mogo\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asocatie\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asoconapam\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asoecct\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asofifo\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asopoliart\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asoprival\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\AsoStia\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Automotors\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\ASOLCE\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\bccrsinpe\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Betesda\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Bluetech\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Coopensionados\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Coopesec\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Daitomo\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Essential\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\FerreKoki\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\FerreKoki2\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Galeanos\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Geometrico\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\GPConsultores\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\GrupoLa\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\GrupoRico\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Independientes\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\JRT\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\MasterMoneyTransfer\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Mictec\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\MSC\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\MSLI\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Optiprime\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Piplatam\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Plus\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Pruebas\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Pyme\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\QA\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\RIPlus\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\RNPConta\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Swapp\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Synergy\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Tecnomed\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Versatec\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Xpider\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Abacus\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\GrupoZumar\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\ASEAMSA\Reportes\*.xlsx
+del C:\inetpub\wwwroot\Sites\Asobacex\Reportes\*.xlsx
+
+del C:\inetpub\wwwroot\Sites\Asecabri\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\710love\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Aseincae\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asesolera\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asetropical\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asimaz\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Aso8mogo\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asocatie\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asoconapam\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asoecct\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asofifo\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asopoliart\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asoprival\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\AsoStia\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Automotors\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\ASOLCE\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Betesda\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\bccrsinpe\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Bluetech\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Coopensionados\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Coopesec\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Daitomo\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Essential\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\FerreKoki\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\FerreKoki2\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Galeanos\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Geometrico\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\GPConsultores\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoLa\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoRico\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Independientes\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\JRT\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\MasterMoneyTransfer\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Mictec\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\MSC\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\MSLI\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Optiprime\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Piplatam\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Plus\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Pruebas\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Pyme\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\QA\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\RIPlus\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\RNPConta\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Swapp\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Synergy\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Tecnomed\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Versatec\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Xpider\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Abacus\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoZumar\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\ASEAMSA\Reportes\A*.PDF
+del C:\inetpub\wwwroot\Sites\Asobacex\Reportes\A*.PDF
+
+
+del C:\inetpub\wwwroot\Sites\Asecabri\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\710love\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Aseincae\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asesolera\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asetropical\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asimaz\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Aso8mogo\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asocatie\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asoconapam\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asoecct\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asofifo\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asopoliart\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asoprival\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\AsoStia\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Automotors\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\ASOLCE\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Betesda\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\bccrsinpe\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Bluetech\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Coopensionados\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Coopesec\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Daitomo\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Essential\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\FerreKoki\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\FerreKoki2\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Galeanos\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Geometrico\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\GPConsultores\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoLa\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoRico\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Independientes\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\JRT\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\MasterMoneyTransfer\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Mictec\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\MSC\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\MSLI\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Optiprime\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Piplatam\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Plus\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Pruebas\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Pyme\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\QA\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\RIPlus\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\RNPConta\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Swapp\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Synergy\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Tecnomed\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Versatec\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Xpider\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Abacus\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoZumar\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\ASEAMSA\Reportes\V*.PDF
+del C:\inetpub\wwwroot\Sites\Asobacex\Reportes\V*.PDF
+
+
+del C:\inetpub\wwwroot\Sites\Asecabri\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\710love\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Aseincae\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asesolera\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asetropical\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asimaz\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Aso8mogo\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asocatie\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asoconapam\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asoecct\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asofifo\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asopoliart\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asoprival\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\AsoStia\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Automotors\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\ASOLCE\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Betesda\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\bccrsinpe\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Bluetech\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Coopensionados\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Coopesec\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Daitomo\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Essential\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\FerreKoki\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\FerreKoki2\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Galeanos\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Geometrico\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\GPConsultores\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoLa\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoRico\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Independientes\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\JRT\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\MasterMoneyTransfer\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Mictec\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\MSC\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\MSLI\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Optiprime\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Piplatam\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Plus\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Pruebas\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Pyme\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\QA\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\RIPlus\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\RNPConta\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Swapp\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Synergy\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Tecnomed\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Versatec\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Xpider\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Abacus\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\GrupoZumar\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\ASEAMSA\Reportes\R*.PDF
+del C:\inetpub\wwwroot\Sites\Asobacex\Reportes\R*.PDF
