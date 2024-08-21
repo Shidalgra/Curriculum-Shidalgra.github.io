@@ -1,9 +1,5 @@
 # Cuales son y que son las pruebas de software
 
----
-
-
-
 ## 1.- La prueba de software ¿que son?
 
 * Verificar si cumple con los requisitos esperados
@@ -52,8 +48,6 @@
 # Pruebas de software como trayectoria profesional
 
 ---
-
-
 
 ## ¿Que es la prueba de software?
 
