@@ -27,7 +27,7 @@
 * Calidad del software (Asegurar que el producto este libre de errores (Reducir un 100% minimo))
 * Satisfaccion del cliente (Hacemos que los clientes sean fieles a la marca por tener esto mencionado anteriormente)
 
-## 5.- Tipos de pruebas de software.
+## 5.- Tipos de pruebas de software
 
 * Pruebas funcionales (¿El software cumple con lo esperado?),
   * existen:
