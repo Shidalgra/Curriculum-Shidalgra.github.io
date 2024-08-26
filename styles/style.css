@@ -57,7 +57,7 @@ body {
 .start .section-container header nav {
   width: 110px;
   position: fixed;
-  margin-left: 60px;
+  margin-left: 58px;
   background-color: #940252d5;
   padding: 30px;
   border-radius: 10px;
@@ -129,8 +129,6 @@ body {
   background-image:("../Icons/MenuHamburguesa.png");
 
 }
-
-
 
 .start .section-container header .nav-bar:hover {
   box-shadow: 0 0 35px #fff;
