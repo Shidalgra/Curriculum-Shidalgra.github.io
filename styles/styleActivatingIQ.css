@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    zoom: 100%;
+  }
+
+  /*---------------------------- logo ------------------------------*/
+  .start .section-container .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
+  }
+  
+  .start .section-container .logo .icon-logo {
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .start .section-container .logo .color {
+    color: #940253;
+    font-family: "Yellowtail"; 
+  }
+  /*---------------------------- /logo ------------------------------*/
+
+
+
+
+  .start .section-container header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }

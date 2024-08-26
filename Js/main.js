@@ -31,24 +31,23 @@ function showHideMenu() {
     if (visible_menu == false) {
         menu.style.display = "block";
         nav_bar.style.display = "block";
-        visible_menu = true;    
+        visible_menu = true;
     } else {
         menu.style.display = "none";
-    nav_bar.style.display = "fixed";
-    visible_menu = false;
+        nav_bar.style.display = "fixed";
+        visible_menu = false;
     }
-    
-    
-    
+
+
 
     // Agregar un event listener para cerrar el menú si se hace clic fuera de él
-    document.addEventListener("click", function(event) {
+    document.addEventListener("click", function (event) {
         var target = event.target;
         if (!menu.contains(target) && target != nav_bar) {
             menu.style.display = "none";
             nav_bar.style.display = "fixed";
             visible_menu = false;
-            
+
         }
 
         for (var x = 0; x < links.length; x++) {
