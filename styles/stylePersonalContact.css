@@ -91,6 +91,10 @@ html {
 .start .section-container header .nav-bar {
     position: fixed;
     background-color: #940253;
+    background-image: url(../Icons/MenuHamburguesa.png);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
     font-size: 20px;
     width: 50px;
     height: 50px;
