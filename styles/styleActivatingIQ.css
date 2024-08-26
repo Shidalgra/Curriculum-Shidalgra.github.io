@@ -4,25 +4,25 @@
     font-family: "Titillium Web";
     margin: 0;
     padding: 0;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    zoom: 100%;
-  }
+}
 
-  /*---------------------------- logo ------------------------------*/
-  .start .section-container .logo {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    zoom: 100%;
+}
+
+/*---------------------------- logo ------------------------------*/
+.start .section-container .logo {
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "Yellowtail";
     text-shadow: 0 0 35px #fff;
-  }
-  
-  .start .section-container .logo .icon-logo {
+}
+
+.start .section-container .logo .icon-logo {
     max-width: 100%;
     display: flex;
     text-align: center;
@@ -31,18 +31,219 @@
     flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 50px;
-  }
-  
-  .start .section-container .logo .color {
-    color: #940253;
-    font-family: "Yellowtail"; 
-  }
-  /*---------------------------- /logo ------------------------------*/
+}
 
-  
-  .start .section-container header {
+.start .section-container .logo .color {
+    color: #940253;
+    font-family: "Yellowtail";
+}
+
+/*---------------------------- /logo ------------------------------*/
+
+
+.start .section-container header {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: row-reverse;
-  }
+}
+
+
+
+
+
+
+
+
+/*----------------------- Section contact ------------------------*/
+.contact {
+    background-color: #131313;
+    padding: 55px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.contact .section-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact .section-container h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contact .section-container .title-contact {
+    margin-top: 50px;
+    color: #fff;
+    font-family: "Yellowtail";
+}
+
+.contact .section-container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact .section-container .row .col {
+    margin-top: 50px;
+}
+
+.contact .section-container .row .col h2 {
+    color: #940253;
+}
+
+.contact .section-container .row .col span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .section-container .row .col span a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact .section-container .row .col span a:hover {
+    color: rgb(150, 150, 152);
+    ;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.contact .section-container .MadeBy {
+    margin-top: 80px;
+}
+
+
+.contact .section-container .info .networks {
+    margin: 20px 0;
+}
+
+.contact .section-container .info .networks a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #940253;
+    border: 1px solid #940253;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+.contact .section-container .info .networks a:hover {
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:950px) {
+
+    .start .section-container header nav {
+        position: fixed;
+        margin-left: 15%;
+        background-color: #940253d5;
+        padding: 7%;
+        border-radius: 10px;
+        text-align: left;
+        z-index: 99;
+        display: none;
+        opacity: 90%;
+    }
+
+    /*menu items ---------------------------------------------------------------------------------------------------*/
+    .start .section-container header nav a {
+        display: block;
+        color: #fff;
+        font-size: 25px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    /*hover menu items ---------------------------------------------------------------------------------------------------*/
+    .start .section-container header nav a:hover {
+        display: block;
+        color: blue;
+        font-size: 25px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    /*Background ---------------------------------------------------------------------------------------------------*/
+    .start .section-container header .nav-bar {
+        position: fixed;
+        background-color: #940253d5;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        line-height: 50px;
+        cursor: pointer;
+        transition: .3s;
+        font-size: 15px;
+    }
+
+    .start .section-container header .nav-bar:hover {
+        box-shadow: 0 0 0px #ffffff00;
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact .section-container .row {
+        display: block;
+    }
+
+    .contact .section-container h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .contact .section-container .row .col h2 {
+        color: #940253;
+        font-size: 20px;
+    }
+
+    .contact .section-container .row .col span {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .contact .section-container .row .col span a {
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+    }
+}

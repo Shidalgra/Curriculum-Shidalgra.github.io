@@ -676,6 +676,8 @@ body {
 
 
 
+
+
 /*--------------------------------------------*/
 /*************     Responsive     *************/
 /*--------------------------------------------*/
@@ -952,6 +954,11 @@ body {
     font-size: 15px;
     text-decoration: none;
   }
+
+
+
+
+
 
   .knowledge .section-container .info .col {
     width: 90%;
