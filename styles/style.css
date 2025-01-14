@@ -374,9 +374,9 @@ body {
   font-size: 20px;
 }
 
-/* .knowledge .section-container .info .col table ul li p {
+.knowledge .section-container .info .col table ul li p {
   margin-left: 5px;
-} */
+}
 
 .knowledge .section-container .info .col table ul li::marker {
   font-size: 20px;
