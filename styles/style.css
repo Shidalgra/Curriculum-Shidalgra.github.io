@@ -212,8 +212,8 @@ body {
 }
 
 .start .section-container .info .networks a:hover {
-  color: #fff;
-  background-color: #940253;
+  color: #d60000;
+  background-color: #adadad;
   box-shadow: 0 0 20px #fff;
 }
 
