@@ -90,12 +90,11 @@ html {
 
 .start .section-container header .nav-bar {
     position: fixed;
-    background-color: #940253;
+    background-color: #940253d5;
     background-image: url(../Icons/MenuHamburguesa.png);
-    background-position: center;
-    background-size: 25px;
     background-repeat: no-repeat;
-    font-size: 20px;
+    background-size: 25px;
+    background-position: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -103,13 +102,20 @@ html {
     cursor: pointer;
     transition: .3s;
     font-size: 15px;
-}
-
-.start .section-container header .nav-bar:hover {
+  }
+  
+  .start .section-container header .nav-bar:hover {
     box-shadow: 0 0 35px #fff;
     width: 55px;
     height: 55px;
-}
+  }
+  
+  .start .section-container header .nav-bar:active {
+    box-shadow: 0 0 20px #fff,
+      inset 0 0 5px #fff;
+    width: 50px;
+    height: 50px;
+  }
 
 .start .section-container .info .networks a {
     display: inline-block;
@@ -211,6 +217,73 @@ html {
     margin-top: 80px;
 }
 
+/*Section contact ---------------------------------------------------------------------------------------------------*/
+.contact {
+    background-color: #131313;
+    padding: 55px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.contact .section-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contact .section-container h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.contact .section-container .title-contact {
+    margin-top: 50px;
+    color: #fff;
+    font-family: "Yellowtail";
+}
+
+.contact .section-container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact .section-container .row .col {
+    margin-top: 50px;
+}
+
+.contact .section-container .row .col h2 {
+    color: #940253;
+}
+
+.contact .section-container .row .col span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .section-container .row .col span a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.contact .section-container .row .col span a:hover {
+    color: rgb(150, 150, 152);
+    ;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.contact .section-container .MadeBy {
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:950px) {
     .PersonalContacts .section-container {
         max-width: 1000px;
@@ -218,6 +291,31 @@ html {
         margin: auto;
         padding: 0 25px;
     }
+
+    .contact .section-container .row {
+        display: block;
+      }
+    
+      .contact .section-container h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+      }
+    
+      .contact .section-container .row .col h2 {
+        color: #940253;
+        font-size: 20px;
+      }
+    
+      .contact .section-container .row .col span {
+        color: #fff;
+        font-size: 15px;
+      }
+    
+      .contact .section-container .row .col span a {
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+      }
 
     .start .section-container {
         max-width: 2000px;

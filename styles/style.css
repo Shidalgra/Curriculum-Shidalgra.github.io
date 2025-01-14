@@ -118,7 +118,6 @@ body {
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
-  font-size: 20px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -126,14 +125,19 @@ body {
   cursor: pointer;
   transition: .3s;
   font-size: 15px;
-  background-image:("../Icons/MenuHamburguesa.png");
-
 }
 
 .start .section-container header .nav-bar:hover {
   box-shadow: 0 0 35px #fff;
   width: 55px;
   height: 55px;
+}
+
+.start .section-container header .nav-bar:active {
+  box-shadow: 0 0 20px #fff,
+    inset 0 0 5px #fff;
+  width: 50px;
+  height: 50px;
 }
 
 .start .section-container .info {
@@ -370,9 +374,9 @@ body {
   font-size: 20px;
 }
 
-.knowledge .section-container .info .col table ul li p {
+/* .knowledge .section-container .info .col table ul li p {
   margin-left: 5px;
-}
+} */
 
 .knowledge .section-container .info .col table ul li::marker {
   font-size: 20px;
@@ -386,10 +390,11 @@ body {
   padding-top: 10px;
 }
 
-.separate{
+.separate {
   margin-left: 10px;
 }
-.separatePoint{
+
+.separatePoint {
   margin-left: 5px;
 }
 
@@ -405,6 +410,65 @@ body {
 
 .knowledge .section-container .info .col table tr .contentList {
   margin-top: 10px;
+}
+
+
+.knowledge .section-container .info .col table tr .contentList div {
+  height: 2rem;
+  margin: 25px 0 0 50px;
+  display: flex;
+  align-items: left;
+}
+
+.knowledge .section-container .info .col table tr .contentList div ul {
+  list-style-type: disc;
+}
+
+.knowledge .section-container .info .col table tr .contentList div p a {
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.knowledge .section-container .info .ListDisc {
+  list-style-type: disc;
+}
+
+.knowledge .section-container .info .ListDisc .detailFullStack {
+  margin: 2rem 0 0 2rem;
+}
+
+.knowledge .section-container .info .ListDisc .StyleDisc {
+  list-style-type: disc;
+}
+
+.knowledge .section-container .info .ListDisc .infoPointsFullStack {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 0 20px;
+  justify-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.knowledge .section-container .info .ListDisc .container_links {
+  width: 8rem;
+  height: 2rem;
+  margin: 0 30px 0 30px;
+  display: flex;
+  list-style-type: disc;
+}
+
+.knowledge .section-container .info .ListDisc .container_links p {
+  width: 10rem;
+}
+
+.knowledge .section-container .info .ListDisc .container_links a {
+  color: #fff;
+  text-decoration: none;
+
 }
 
 .databaseSection {
@@ -1041,34 +1105,3 @@ body {
     border-radius: 15px 15px 15px 15px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
