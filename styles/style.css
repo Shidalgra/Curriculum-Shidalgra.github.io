@@ -570,6 +570,9 @@ body {
 .summary .section-container .info .col table .description .viewImage {
   width: 80px;
   display: flex;
+  border: 1px solid;
+  border-color: #940253;
+  border-radius: 20%;
   justify-content: center;
 }
 
@@ -577,7 +580,9 @@ body {
   width: 100%;
   border: 1px solid #bab9b9;
   padding: 2px 4px 2px 4px;
-  border-radius: 0%;
+  border: 1px solid;
+  border-color: #940253;
+  border-radius: 20%;
   background-color: #940253;
   color: #fff;
   text-decoration: none;
@@ -588,7 +593,9 @@ body {
   width: 105%;
   border: 1px solid #a5a4a4;
   padding: 4px 8px 4px 8px;
-  border-radius: 0%;
+  border: 1px solid;
+  border-color: #940253;
+  border-radius: 20%;
   background-color: #940253;
   color: #fff;
   text-decoration: none;
