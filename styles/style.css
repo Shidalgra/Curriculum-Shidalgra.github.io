@@ -577,7 +577,7 @@ body {
   width: 100%;
   border: 1px solid #bab9b9;
   padding: 2px 4px 2px 4px;
-  border-radius: 15%;
+  border-radius: 0%;
   background-color: #940253;
   color: #fff;
   text-decoration: none;
@@ -588,7 +588,7 @@ body {
   width: 105%;
   border: 1px solid #a5a4a4;
   padding: 4px 8px 4px 8px;
-  border-radius: 15%;
+  border-radius: 0%;
   background-color: #940253;
   color: #fff;
   text-decoration: none;
