@@ -63,17 +63,25 @@ let cSharp = document.getElementById("cSharp");
 createBar(cSharp);
 let java = document.getElementById("java");
 createBar(java);
-let sql = document.getElementById("sql");
-createBar(sql);
+let nosql = document.getElementById("nosql");
+createBar(nosql);
 let php = document.getElementById("php");
 createBar(php);
 let qa = document.getElementById("qa");
 createBar(qa);
 let uxui = document.getElementById("uxui");
 createBar(uxui);
+let db = document.getElementById("db");
+createBar(db);
+let dba = document.getElementById("dba");
+createBar(dba);
+let hv = document.getElementById("hv");
+createBar(hv);
+let vb = document.getElementById("vb");
+createBar(vb);
 
 //I use an array to paint the bars that will be seen in each bar created, it starts at -1 because it starts counting from 0
-let counters = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+let counters = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
 //this variable is the flag of the function
 let intro = false;
 
@@ -88,7 +96,7 @@ function effectSkills() {
             barPaint(español, 20, 0, intervalEspañol);
         }, 100);
         const intervalIngles = setInterval(function () {
-            barPaint(ingles, 9, 1, intervalIngles);
+            barPaint(ingles, 17, 1, intervalIngles);
         }, 100);
         const intervalMvc = setInterval(function () {
             barPaint(mvc, 16, 2, intervalMvc);
@@ -97,13 +105,13 @@ function effectSkills() {
             barPaint(coreOcho, 15, 3, intervalcoreOcho);
         }, 100);
         const intervalHtml = setInterval(function () {
-            barPaint(html, 17, 4, intervalHtml);
+            barPaint(html, 18, 4, intervalHtml);
         }, 100);
         const intervalCss = setInterval(function () {
             barPaint(css, 18, 5, intervalCss);
         }, 100);
         const intervalJavascript = setInterval(function () {
-            barPaint(javascript, 15, 6, intervalJavascript);
+            barPaint(javascript, 18, 6, intervalJavascript);
         }, 100);
         const intervalReact = setInterval(function () {
             barPaint(react, 14, 7, intervalReact);
@@ -114,8 +122,8 @@ function effectSkills() {
         const intervalJava = setInterval(function () {
             barPaint(java, 18, 9, intervalJava);
         }, 100);
-        const intervalSql = setInterval(function () {
-            barPaint(sql, 18, 10, intervalSql);
+        const intervalNosql = setInterval(function () {
+            barPaint(nosql, 15, 10, intervalNosql);
         }, 100);
         const intervalPhp = setInterval(function () {
             barPaint(php, 17, 11, intervalPhp);
@@ -124,7 +132,19 @@ function effectSkills() {
             barPaint(qa, 17, 12, intervalQa);
         }, 100);
         const intervalUxui = setInterval(function () {
-            barPaint(uxui, 16, 13, intervalUxui);
+            barPaint(uxui, 18, 13, intervalUxui);
+        }, 100);
+        const intervalDb = setInterval(function () {
+            barPaint(db, 17, 14, intervalDb);
+        }, 100);
+        const intervalDba = setInterval(function () {
+            barPaint(dba, 18, 15, intervalDba);
+        }, 100);    
+        const intervalHv = setInterval(function () {
+            barPaint(hv, 16, 16, intervalHv);
+        }, 100);
+        const intervalVb = setInterval(function () {
+            barPaint(vb, 16, 17, intervalVb);
         }, 100);
     }
 }
