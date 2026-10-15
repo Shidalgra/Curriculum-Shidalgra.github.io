@@ -1,0 +1,152 @@
+/* ----------------------------------------- */
+/* ---------------- Nav Bar ---------------- */
+/* ----------------------------------------- */
+
+/* Menu ---------------------------------------------------------------------------------------------------*/
+.start .section-container header .nav-bar {
+    position: fixed;
+    top: 23px;
+    /* Distancia desde arriba */
+    right: 20px;
+    /* Mueve el botón a la derecha completamente */
+    background-color: #940253b0 !important;
+    background-image: url(../Icons/MenuHamburguesa.png);
+    border: 1px solid #940253 !important;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease !important;
+    font-size: 15px;
+    z-index: 100;
+    /* Asegura que quede por encima de otros elementos */
+}
+
+.start .section-container header .nav-bar:hover {
+    box-shadow: 0 0 15px #fff;
+    width: 44px;
+    height: 44px;
+}
+
+.start .section-container header .nav-bar:active {
+    box-shadow: 0 0 20px #fff,
+        inset 0 0 5px #fff;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* ------- Contenedor de navegación (nav) ------------------------------------------------------------------------------*/
+.start .section-container header nav {
+    width: 110px;
+    position: fixed;
+    margin-right: 25px;
+    margin-top: 55px;
+    background-color: #940252d5;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+    right: 0;
+}
+
+.start .section-container header nav a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.start .section-container header nav a:hover {
+    display: block;
+    color: rgb(150, 150, 152);
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+/* --- Línea divisoria dentro del menú --- */
+.start .section-container header nav hr.menu-divider {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 12px 0;
+}
+
+/* --- Contenedor de botones dentro del menú --- */
+.start .section-container header nav .menu-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* --- Estilo de los botones dentro del menú (similares a los enlaces) --- */
+.start .section-container header nav .menu-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    padding: 8px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* --- Efecto Hover idéntico al menú --- */
+.start .section-container header nav .menu-btn:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgb(150, 150, 152);
+    font-size: 16px;
+    /* Crece ligeramente igual que los links */
+    border-color: rgb(150, 150, 152);
+}
+
+
+@media (min-width: 480px) and (max-width:950px) {
+    .start .section-container header nav {
+        margin-right: 25px;
+        margin-top: 0px;
+    }
+
+    .aboutme .section-container {
+        max-width: 100%;
+        margin: auto;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .summary .section-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 10px 0 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}

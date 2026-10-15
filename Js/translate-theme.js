@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const translateBtn = document.getElementById("translate-btn");
     const translateText = document.getElementById("translate-text");
+    const themeText = document.getElementById("theme-text");
 
-    // --- 2. Traducción real de toda la página ---
     if (translateBtn) {
         translateBtn.addEventListener("click", (e) => {
             e.preventDefault();
@@ -11,14 +11,27 @@ document.addEventListener("DOMContentLoaded", () => {
             const googleSelect = document.querySelector(".goog-te-combo");
 
             if (googleSelect) {
-                if (googleSelect.value === "" || googleSelect.value === "en") {
-                    googleSelect.value = "es"; // Traducir al español
+                // Determinamos el idioma actual basándonos directamente en el select de Google
+                // Si el valor actual es 'es', significa que está en español y debemos cambiar a inglés ('en')
+                if (googleSelect.value === "es") {
+                    googleSelect.value = "en";
                     googleSelect.dispatchEvent(new Event("change"));
-                    translateText.textContent = "English";
-                } else {
-                    googleSelect.value = "en"; // Regresar a inglés
-                    googleSelect.dispatchEvent(new Event("change"));
+                    
+                    // Textos fijos cuando pasa a Inglés
                     translateText.textContent = "Español";
+                    if (themeText) {
+                        themeText.textContent = document.body.classList.contains("dark-mode") ? "Dark" : "Light";
+                    }
+                } else {
+                    // Si está en inglés, vacío o cualquier otro, lo pasamos a español ('es')
+                    googleSelect.value = "es";
+                    googleSelect.dispatchEvent(new Event("change"));
+                    
+                    // Textos fijos cuando pasa a Español
+                    translateText.textContent = "English";
+                    if (themeText) {
+                        themeText.textContent = document.body.classList.contains("dark-mode") ? "Oscuro" : "Claro";
+                    }
                 }
             } else {
                 alert("El sistema de traducción se está cargando. Inténtalo de nuevo en un segundo.");
@@ -30,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!document.getElementById("google_translate_element")) {
         let div = document.createElement("div");
         div.id = "google_translate_element";
-        div.style.display = "none"; // Se oculta para no alterar tu diseño original
+        div.style.display = "none";
         document.body.appendChild(div);
 
         let script = document.createElement("script");

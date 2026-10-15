@@ -440,7 +440,7 @@ i {
 }
 
 .knowledge .section-container .info .ListDisc .container_links p {
-  width: 10rem;
+  width: 12rem;
 }
 
 .knowledge .section-container .info .ListDisc .container_links a {
@@ -743,7 +743,8 @@ i {
     position: fixed;
     top: 80px;
     right: 20px;
-    margin-left: 0;      /* Remueve la propiedad previa margin-left: 15% */
+    margin-left: 0;
+    /* Remueve la propiedad previa margin-left: 15% */
     background-color: #940253d5;
     padding: 20px;
     border-radius: 10px;
@@ -792,8 +793,6 @@ i {
     width: 50px;
     height: 50px;
   }
-
-
 
   .lineStartName {
     position: relative;
@@ -991,6 +990,12 @@ i {
   .contact .section-container h3 {
     text-transform: uppercase;
     font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .contact .section-container .row .col {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .contact .section-container .row .col h2 {

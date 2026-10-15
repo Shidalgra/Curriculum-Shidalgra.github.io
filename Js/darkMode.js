@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (bodyElement.classList.contains("dark-mode")) {
                 icon.className = "fa-solid fa-sun"; // Icono de sol
-                if (themeText) themeText.textContent = "Clear"; // Si está en oscuro, el botón ofrece pasar a claro
+                if (themeText) themeText.textContent = "Light"; // Si está en oscuro, el botón ofrece pasar a claro
             } else {
                 icon.className = "fa-solid fa-moon"; // Icono de luna
                 if (themeText) themeText.textContent = "Dark"; // Si está en claro, el botón ofrece pasar a oscuro

@@ -1,0 +1,34 @@
+/* Selecciona cualquier elemento que contenga la palabra 'goog' en sus clases o IDs */
+[class*="goog-"],
+[id*="goog"],
+.goog-te-banner-frame,
+.goog-te-banner,
+.skiptranslate,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+div[id*="goog-gt-"],
+.goog-te-gadget,
+.goog-te-spinner-pos,
+iframe[id*=":2.container"],
+#google_translate_element,
+body.dark-mode [class*="goog-"],
+body.dark-mode [id*="goog"],
+body.dark-mode .skiptranslate {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    z-index: -999999 !important;
+}
+
+/* Evita desplazamiento superior al alternar el modo */
+body, 
+body.dark-mode {
+    top: 0px !important;
+    position: static !important;
+}
