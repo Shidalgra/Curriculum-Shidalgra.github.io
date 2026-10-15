@@ -118,7 +118,7 @@
 }
 
 
-@media (min-width: 480px) and (max-width:950px) {
+@media Screen and (max-width:950px) {
     .start .section-container header nav {
         margin-right: 25px;
         margin-top: 0px;
@@ -147,6 +147,4 @@
         justify-content: center;
         align-items: center;
     }
-
-    
 }

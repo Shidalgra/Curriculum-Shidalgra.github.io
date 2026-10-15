@@ -724,12 +724,6 @@ i {
 
 
 
-
-
-
-
-
-
 /*--------------------------------------------*/
 /*************     Responsive     *************/
 /*--------------------------------------------*/
@@ -737,7 +731,7 @@ i {
 
 
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:950px) {
+@media Screen and (max-width:950px) {
 
   .start .section-container header nav {
     position: fixed;
@@ -1095,3 +1089,4 @@ i {
     border-radius: 15px 15px 15px 15px;
   }
 }
+
