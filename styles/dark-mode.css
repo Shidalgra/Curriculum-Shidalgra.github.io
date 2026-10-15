@@ -2,7 +2,7 @@
 /* --- Botones fijos arriba a la derecha --- */
 .header-tools {
     position: fixed !important;
-    top: 15px !important;
+    top: 30px !important;
     right: 20px !important;
     z-index: 999999 !important;
     display: flex !important;
