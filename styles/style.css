@@ -721,7 +721,10 @@ body {
 }
 
 .contact .section-container .MadeBy {
-  margin-top: 80px;
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
