@@ -105,7 +105,11 @@ body {
 }
 
 .contact .section-container .MadeBy {
-    margin-top: 80px;
+    margin: 30px 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
@@ -162,58 +166,6 @@ body {
 
 
 @media screen and (max-width:950px) {
-
-    .start .section-container header nav {
-        position: fixed;
-        margin-left: 15%;
-        background-color: #940253d5;
-        padding: 7%;
-        border-radius: 10px;
-        text-align: left;
-        z-index: 99;
-        display: none;
-        opacity: 90%;
-    }
-
-    /*menu items ---------------------------------------------------------------------------------------------------*/
-    .start .section-container header nav a {
-        display: block;
-        color: #fff;
-        font-size: 25px;
-        text-decoration: none;
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-
-    /*hover menu items ---------------------------------------------------------------------------------------------------*/
-    .start .section-container header nav a:hover {
-        display: block;
-        color: blue;
-        font-size: 25px;
-        text-decoration: none;
-        margin-bottom: 10px;
-        font-weight: bold;
-    }
-
-    /*Background ---------------------------------------------------------------------------------------------------*/
-    .start .section-container header .nav-bar {
-        position: fixed;
-        background-color: #940253d5;
-        font-size: 25px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        line-height: 50px;
-        cursor: pointer;
-        transition: .3s;
-        font-size: 15px;
-    }
-
-    .start .section-container header .nav-bar:hover {
-        box-shadow: 0 0 0px #ffffff00;
-        width: 50px;
-        height: 50px;
-    }
 
     .contact .section-container .row {
         display: block;

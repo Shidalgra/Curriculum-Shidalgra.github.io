@@ -2,20 +2,23 @@
 /* --- Botones fijos arriba a la derecha --- */
 .header-tools {
     position: fixed !important;
-    top: 15px !important;
-    right: 20px !important;
+    height: 50px !important;
+    width: 500px !important;
+    top: 20px !important;
+    right: 85px !important;
     z-index: 999999 !important;
     display: flex !important;
-    gap: 10px !important;
+    gap: 35px !important;
     align-items: center !important;
     flex-direction: row !important;
+    justify-content: right !important;
 }
 
 .float-btn {
-    background-color: #940253 !important;
+    background-color: #940253b0 !important;
     color: #ffffff !important;
     border: 1px solid #940253 !important;
-    border-radius: 30px !important;
+    border-radius: 10px !important;
     padding: 0 14px !important;
     width: 100px !important;
     height: 42px !important;
@@ -36,15 +39,18 @@
 }
 
 .float-btn:hover {
-    background-color: #adadad !important;
-    color: #d60000 !important;
-    border-color: #adadad !important;
-    box-shadow: 0 0 15px #ffffff !important;
-    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff !important;
+    width: 101px !important;
+    height: 46px !important;
 }
 
 /* --- Transiciones y Modo Oscuro (Incluyendo Contactos) --- */
-.aboutme, .summary, .knowledge, .Co-WorkersContacts, .PersonalContacts, .contact {
+.aboutme,
+.summary,
+.knowledge,
+.Co-WorkersContacts,
+.PersonalContacts,
+.contact {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -66,8 +72,10 @@ body.dark-mode .contact {
 
 /* --- Estilos para la sección de contactos en Modo Oscuro --- */
 body.dark-mode .contact {
-    background-color: #121212 !important; /* Fondo negro profundo */
-    color: #e6e6e6 !important; /* Letras claras */
+    background-color: #121212 !important;
+    /* Fondo negro profundo */
+    color: #e6e6e6 !important;
+    /* Letras claras */
 }
 
 /* body.dark-mode .contact h2, */
@@ -75,7 +83,8 @@ body.dark-mode .contact h3,
 body.dark-mode .contact span,
 body.dark-mode .contact a,
 body.dark-mode .contact p {
-    color: #ffffff !important; /* Asegurar que los títulos y textos de contacto sean blancos */
+    color: #ffffff !important;
+    /* Asegurar que los títulos y textos de contacto sean blancos */
 }
 
 /* Permitir que los enlaces de contacto mantengan visibilidad en modo oscuro */
@@ -86,26 +95,181 @@ body.dark-mode .contact a:hover {
 
 
 
-/* =========================================================
-   DESTRUCTOR DE MARCOS Y CONTENEDORES EXTERNOS NO DESEADOS
-   ========================================================= */
+/* Selecciona cualquier elemento que contenga la palabra 'goog' en sus clases o IDs */
+[class*="goog-"],
+[id*="goog"],
 .goog-te-banner-frame,
 .goog-te-banner,
 .skiptranslate,
 #goog-gt-tt,
 .goog-te-balloon-frame,
-div[id*="goog-gt-"] {
+div[id*="goog-gt-"],
+.goog-te-gadget,
+.goog-te-spinner-pos,
+iframe[id*=":2.container"],
+#google_translate_element,
+body.dark-mode [class*="goog-"],
+body.dark-mode [id*="goog"],
+body.dark-mode .skiptranslate {
     display: none !important;
     visibility: hidden !important;
     opacity: 0 !important;
     pointer-events: none !important;
     width: 0 !important;
     height: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
     z-index: -999999 !important;
 }
 
-/* Forzar que el cuerpo de la página no se desplace ni tenga márgenes extraños */
-body {
+/* Evita desplazamiento superior al alternar el modo */
+body, 
+body.dark-mode {
     top: 0px !important;
     position: static !important;
 }
+
+
+/* ----------------------------------------- */
+/* ---------------- Nav Bar ---------------- */
+/* ----------------------------------------- */
+
+/* Menu ---------------------------------------------------------------------------------------------------*/
+.start .section-container header .nav-bar {
+  position: fixed;
+  top: 23px;
+  /* Distancia desde arriba */
+  right: 20px;
+  /* Mueve el botón a la derecha completamente */
+  background-color: #940253b0 !important;
+  background-image: url(../Icons/MenuHamburguesa.png);
+  border: 1px solid #940253 !important;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease !important;
+  font-size: 15px;
+  z-index: 100;
+  /* Asegura que quede por encima de otros elementos */
+}
+
+.start .section-container header .nav-bar:hover {
+  box-shadow: 0 0 15px #fff;
+  width: 44px;
+  height: 44px;
+}
+
+.start .section-container header .nav-bar:active {
+  box-shadow: 0 0 20px #fff,
+    inset 0 0 5px #fff;
+  width: 50px;
+  height: 50px;
+}
+
+
+/* ------- Contenedor de navegación (nav) ------------------------------------------------------------------------------*/ 
+.start .section-container header nav {
+  width: 110px;
+  position: fixed;
+  margin-right: 58px;
+  margin-top: 60px;
+  background-color: #940252d5;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+  z-index: 99;
+  display: none;
+  right: 0;
+}
+
+.start .section-container header nav a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.start .section-container header nav a:hover {
+  display: block;
+  color: rgb(150, 150, 152);
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+
+/*Section responsive ---------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:950px) {
+
+  .start .section-container header nav {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    margin-left: 0;      /* Remueve la propiedad previa margin-left: 15% */
+    background-color: #940253d5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+    opacity: 90%;
+  }
+
+  /*menu items ---------------------------------------------------------------------------------------------------*/
+  .start .section-container header nav a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /*hover menu items ---------------------------------------------------------------------------------------------------*/
+  .start .section-container header nav a:hover {
+    display: block;
+    color: blue;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /*Background ---------------------------------------------------------------------------------------------------*/
+  .start .section-container header .nav-bar {
+    position: fixed;
+    background-color: #940253d5;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 15px;
+  }
+
+  .start .section-container header .nav-bar:hover {
+    box-shadow: 0 0 0px #ffffff00;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+
+
+
+

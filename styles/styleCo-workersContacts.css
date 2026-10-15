@@ -30,39 +30,6 @@ html {
     padding: 15px;
 }
 
-/* Menu ---------------------------------------------------------------------------------------------------*/
-.start .section-container header nav {
-    width: 110px;
-    position: fixed;
-    margin-left: 60px;
-    background-color: #940253;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: left;
-    z-index: 99;
-    display: none;
-}
-
-.start .section-container header nav a {
-    display: block;
-    color: #fff;
-    font-size: 15px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    font-weight: bold;
-    transition: .3s;
-}
-
-.start .section-container header nav a:hover {
-    display: block;
-    color: rgb(150, 150, 152);
-    font-size: 18px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    font-weight: bold;
-    transition: .3s;
-}
-
 /* *********** */
 .start .section-container header .logo {
     font-weight: bold;
@@ -87,34 +54,6 @@ html {
     font-family: "Yellowtail";
 }
 
-.start .section-container header .nav-bar {
-    position: fixed;
-    background-color: #940253d5;
-    background-image: url(../Icons/MenuHamburguesa.png);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    line-height: 50px;
-    cursor: pointer;
-    transition: .3s;
-    font-size: 15px;
-}
-
-.start .section-container header .nav-bar:hover {
-    box-shadow: 0 0 35px #fff;
-    width: 55px;
-    height: 55px;
-}
-
-.start .section-container header .nav-bar:active {
-    box-shadow: 0 0 20px #fff,
-        inset 0 0 5px #fff;
-    width: 50px;
-    height: 50px;
-}
 
 .start .section-container .info .networks a {
     display: inline-block;
@@ -207,7 +146,11 @@ html {
 }
 
 .Co-WorkersContacts .section-container .MadeBy {
-    margin-top: 80px;
+    margin: 30px 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /*Section contact ---------------------------------------------------------------------------------------------------*/
@@ -266,7 +209,11 @@ html {
 }
 
 .contact .section-container .MadeBy {
-    margin-top: 80px;
+    margin: 30px 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
@@ -313,19 +260,6 @@ html {
         margin: auto;
         text-align: center;
         padding: 0 10px;
-    }
-
-    .start .section-container header .nav-bar {
-        position: fixed;
-        background-color: #940253;
-        font-size: 20px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        line-height: 50px;
-        cursor: pointer;
-        transition: .3s;
-        font-size: 15px;
     }
 }
 

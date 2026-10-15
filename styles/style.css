@@ -14,6 +14,11 @@ body {
   zoom: 100%;
 }
 
+i {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /* section start ---------------------------------------------------------------------------------------------------*/
 .start {
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
@@ -57,13 +62,15 @@ body {
 .start .section-container header nav {
   width: 110px;
   position: fixed;
-  margin-left: 58px;
+  margin-right: 58px;
+  margin-top: 60px;
   background-color: #940252d5;
   padding: 30px;
   border-radius: 10px;
   text-align: left;
   z-index: 99;
   display: none;
+  right: 0;
 }
 
 .start .section-container header nav a {
@@ -109,35 +116,6 @@ body {
 .start .section-container header .logo .color {
   color: #940253;
   font-family: "Yellowtail";
-}
-
-.start .section-container header .nav-bar {
-  position: fixed;
-  background-color: #940253d5;
-  background-image: url(../Icons/MenuHamburguesa.png);
-  background-repeat: no-repeat;
-  background-size: 25px;
-  background-position: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  line-height: 50px;
-  cursor: pointer;
-  transition: .3s;
-  font-size: 15px;
-}
-
-.start .section-container header .nav-bar:hover {
-  box-shadow: 0 0 35px #fff;
-  width: 55px;
-  height: 55px;
-}
-
-.start .section-container header .nav-bar:active {
-  box-shadow: 0 0 20px #fff,
-    inset 0 0 5px #fff;
-  width: 50px;
-  height: 50px;
 }
 
 .start .section-container .info {
@@ -722,16 +700,16 @@ body {
 }
 
 .contact .section-container .MadeBy {
-    margin: 30px 100px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  margin: 30px 100px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-
-
-
+.boldTittle {
+  font-weight: bold;
+}
 
 
 
@@ -763,9 +741,11 @@ body {
 
   .start .section-container header nav {
     position: fixed;
-    margin-left: 15%;
+    top: 80px;
+    right: 20px;
+    margin-left: 0;      /* Remueve la propiedad previa margin-left: 15% */
     background-color: #940253d5;
-    padding: 7%;
+    padding: 20px;
     border-radius: 10px;
     text-align: left;
     z-index: 99;
@@ -1110,5 +1090,3 @@ body {
     border-radius: 15px 15px 15px 15px;
   }
 }
-
-
