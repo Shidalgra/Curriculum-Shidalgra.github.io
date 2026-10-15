@@ -8,6 +8,7 @@
     display: flex !important;
     gap: 10px !important;
     align-items: center !important;
+    flex-direction: column !important;
 }
 
 .float-btn {
@@ -16,6 +17,7 @@
     border: 1px solid #940253 !important;
     border-radius: 30px !important;
     padding: 0 14px !important;
+    width: 100px !important;
     height: 42px !important;
     display: flex !important;
     align-items: center !important;

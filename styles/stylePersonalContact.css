@@ -219,9 +219,9 @@ html {
 
 /*Section contact ---------------------------------------------------------------------------------------------------*/
 .contact {
-    background-color: #131313;
+    background-color: #e6e6e6;
     padding: 55px 0 100px 0;
-    color: #e6e6e6;
+    color: #1e1e1e;
     text-align: center;
 }
 
@@ -256,12 +256,12 @@ html {
 }
 
 .contact .section-container .row .col span {
-    color: #fff;
+    color: #1e1e1e;
     font-size: 20px;
 }
 
 .contact .section-container .row .col span a {
-    color: #fff;
+    color: #1e1e1e;
     font-size: 20px;
     text-decoration: none;
 }
@@ -286,7 +286,7 @@ html {
 
 @media screen and (max-width:950px) {
     .PersonalContacts .section-container {
-        max-width: 1000px;
+        max-width: 100%;
         height: 550px;
         margin: auto;
         padding: 0 25px;
@@ -307,18 +307,18 @@ html {
       }
     
       .contact .section-container .row .col span {
-        color: #fff;
+        color: #1e1e1e;
         font-size: 15px;
       }
     
       .contact .section-container .row .col span a {
-        color: #fff;
+        color: #1e1e1e;
         font-size: 15px;
         text-decoration: none;
       }
 
     .start .section-container {
-        max-width: 2000px;
+        max-width: 100%;
         margin: auto;
         text-align: center;
         padding: 0 10px;

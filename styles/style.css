@@ -246,7 +246,7 @@ body {
 }
 
 .aboutme .section-container {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 10px;
 }
@@ -314,7 +314,7 @@ body {
 }
 
 .knowledge .section-container {
-  max-width: 100%;
+  max-width: 2000px;
   margin: auto;
   padding: 0 10px 0 10px;
 }
@@ -497,7 +497,7 @@ body {
 }
 
 .summary .section-container {
-  max-width: 100%;
+  max-width: 1200px;
   margin: auto;
   padding: 0 10px 0 10px;
 }
@@ -623,7 +623,7 @@ body {
 }
 
 .skills .section-container {
-  max-width: 100%;
+  max-width: 1000px;
   margin: auto;
   padding: 0 10px;
 }
@@ -675,7 +675,7 @@ body {
 }
 
 .contact .section-container {
-  max-width: 100%;
+  max-width: 1000px;
   margin: auto;
   padding: 0 10px;
 }
