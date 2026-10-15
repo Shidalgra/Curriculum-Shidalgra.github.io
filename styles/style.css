@@ -772,7 +772,7 @@ body {
   .start .section-container header nav a {
     display: block;
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -782,7 +782,7 @@ body {
   .start .section-container header nav a:hover {
     display: block;
     color: blue;
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -792,7 +792,7 @@ body {
   .start .section-container header .nav-bar {
     position: fixed;
     background-color: #940253d5;
-    font-size: 25px;
+    font-size: 15px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -1014,12 +1014,12 @@ body {
   }
 
   .contact .section-container .row .col span {
-    color: #fff;
+    color: #1e1e1e;
     font-size: 15px;
   }
 
   .contact .section-container .row .col span a {
-    color: #fff;
+    color: #1e1e1e;
     font-size: 15px;
     text-decoration: none;
   }
