@@ -97,7 +97,7 @@ i {
 .start .section-container header .logo {
   font-weight: bold;
   font-size: 2rem;
-  font-family: "Yellowtail";
+  /* font-family: "Yellowtail"; */
   text-shadow: 0 0 35px #fff;
 }
 
@@ -115,7 +115,7 @@ i {
 
 .start .section-container header .logo .color {
   color: #940253;
-  font-family: "Yellowtail";
+  /* font-family: "Yellowtail"; */
 }
 
 .start .section-container .info {
@@ -124,7 +124,7 @@ i {
 
 .lineStartName {
   position: relative;
-  font-family: monospace;
+  /* font-family: monospace; */
   font-size: 240%;
   font-weight: bold;
   border-right: 2px solid rgba(255, 255, 255, .75);
@@ -211,7 +211,7 @@ i {
 
 /*general styles ---------------------------------------------------------------------------------------------------*/
 .title-section {
-  font-family: "Yellowtail";
+  /* font-family: "Yellowtail"; */
   font-size: 1.5rem;
 }
 
@@ -665,7 +665,7 @@ i {
 
 .contact .section-container .title-contact {
   margin-top: 50px;
-  font-family: "Yellowtail";
+  /* font-family: "Yellowtail"; */
   color: #940253;
 }
 
@@ -790,7 +790,7 @@ i {
 
   .lineStartName {
     position: relative;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 150%;
     font-weight: bold;
     border-right: 2px solid rgba(255, 255, 255, .75);
