@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styleQAResume.css">
+    <link rel="stylesheet" href="../styles/styleQASummary.css">
+    <link rel="stylesheet" href="../styles/dark-mode.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>QA Summary</title>
     <link rel="shortcut icon" href="images/Icon_Shidalgra.png" />
 </head>
+
 <body>
     <section class="start" id="start">
         <div class="section-container">
             <header>
                 <div class="nav-bar" id="nav-bar" onclick="showHideMenu()"></div>
+                <!-- Botones fijos arriba a la derecha -->
+                <div class="header-tools">
+                    <button id="translate-btn" class="float-btn">
+                        <i class="fa-solid fa-language"></i>
+                        <span id="translate-text">Traducir a Español</span>
+                    </button>
+                    <button id="theme-btn" class="float-btn">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
                 <nav id="nav" class="nav">
                     <a href="../index.html">Home Page</a>
                     <a href="#start">Start</a>
@@ -55,8 +68,8 @@
             <p><strong>Quick Summary:</strong></p>
             <p>
                 Since, functional testing tests various aspects of a software product,
-                the types of testing that are performed under this methodology of 
-                software testing are numerous. This blog explains every functional 
+                the types of testing that are performed under this methodology of
+                software testing are numerous. This blog explains every functional
                 type and when it should be performed during the software development cycle.
             </p>
             <p class="special">
@@ -66,9 +79,9 @@
             <div class="row" id="1-3">
                 <div class="col">
                     <i class="fa-solid fa-1" id="UnitTesting"></i>
-                    <span class="title-detail" >Unit Testing</span>
+                    <span class="title-detail">Unit Testing</span>
                     <p>
-                        Ensures that each part of the code developed 
+                        Ensures that each part of the code developed
                         in a component delivers the desired output...
                     </p>
                 </div>
@@ -76,7 +89,8 @@
                     <i class="fa-solid fa-2" id="ComponentTesting"></i>
                     <span class="title-detail">Component Testing</span>
                     <p>
-                        Testing a module or component independently to verify its expected output is called component testing.
+                        Testing a module or component independently to verify its expected output is called component
+                        testing.
                     </p>
                 </div>
                 <div class="col">
@@ -93,7 +107,7 @@
                     <i class="fa-solid fa-4" id="IntegrationTesting"></i>
                     <span class="title-detail">Integration Testing</span>
                     <p>
-                        It is performed to test the modules which are working fine 
+                        It is performed to test the modules which are working fine
                         individually and do not show bugs when integrated.
                     </p>
                 </div>
@@ -101,7 +115,7 @@
                     <i class="fa-solid fa-5" id="RegressionTesting"></i>
                     <span class="title-detail">Regression Testing</span>
                     <p>
-                        Regression testing is performed to make sure that a change 
+                        Regression testing is performed to make sure that a change
                         or addition hasn't broken any of the existing functionality.
                     </p>
                 </div>
@@ -109,8 +123,8 @@
                     <i class="fa-solid fa-6" id="SanityTesting"></i>
                     <span class="title-detail">Sanity Testing</span>
                     <p>
-                        Sanity testing is generally a subset of regression testing 
-                        and a group of test cases executed that are related to the 
+                        Sanity testing is generally a subset of regression testing
+                        and a group of test cases executed that are related to the
                         changes made to the product.
                     </p>
                 </div>
@@ -120,7 +134,7 @@
                     <i class="fa-solid fa-7" id="SystemTesting"></i>
                     <span class="title-detail">System Testing</span>
                     <p>
-                        System testing is testing conducted on a complete, integrated 
+                        System testing is testing conducted on a complete, integrated
                         system to evaluate its compliance with the specified requirements.
                     </p>
                 </div>
@@ -128,8 +142,8 @@
                     <i class="fa-solid fa-8" id="UserAcceptanceTesting"></i>
                     <span class="title-detail">User Acceptance Testing</span>
                     <p>
-                        User acceptance testing (UAT) is the last phase of the software 
-                        testing process. In UAT actual software/app users test the software 
+                        User acceptance testing (UAT) is the last phase of the software
+                        testing process. In UAT actual software/app users test the software
                         to make sure it can handle required tasks in real-world scenarios.
                     </p>
                 </div>
@@ -137,8 +151,8 @@
                     <i class="fa-solid fa-9" id="APITesting"></i>
                     <span class="title-detail">API Testing</span>
                     <p>
-                        API testing is software testing that aims to validate the APIs. 
-                        API testing aims to check APIs’ reliability, performance, security, 
+                        API testing is software testing that aims to validate the APIs.
+                        API testing aims to check APIs reliability, performance, security,
                         and functionality.
                     </p>
                 </div>
@@ -148,8 +162,8 @@
                     <i class="fa-solid fa-1" id="UITesting">0</i>
                     <span class="title-detail">UI Testing</span>
                     <p>
-                        UI testing is a software testing technique that tests the functionality 
-                        or features of the software or application that comes into interaction 
+                        UI testing is a software testing technique that tests the functionality
+                        or features of the software or application that comes into interaction
                         with end-users.
                     </p>
                 </div>
@@ -157,7 +171,7 @@
                     <i class="fa-solid fa-1" id="White-BoxTesting">1</i>
                     <span class="title-detail">White-Box Testing</span>
                     <p>
-                        It inspects the inner workings of a software system - code, infrastructure, 
+                        It inspects the inner workings of a software system - code, infrastructure,
                         and integrations with external systems.
                     </p>
                 </div>
@@ -165,8 +179,8 @@
                     <i class="fa-solid fa-1" id="Black-BoxTesting">2</i>
                     <span class="title-detail">Black-Box Testing</span>
                     <p>
-                        It makes it possible for testers to know how the system responds to 
-                        expected and unexpected user actions, response time, usability, and 
+                        It makes it possible for testers to know how the system responds to
+                        expected and unexpected user actions, response time, usability, and
                         reliability testing issues.
                     </p>
                 </div>
@@ -176,9 +190,9 @@
                     <i class="fa-solid fa-1" id="ProductionTesting">3</i>
                     <span class="title-detail">Production Testing</span>
                     <p>
-                        Production testing is about testing any new feature or code changes in 
-                        the production environment instead of staging. So, production testing 
-                        eliminates the risk in the deployment phase and promotes the frequent 
+                        Production testing is about testing any new feature or code changes in
+                        the production environment instead of staging. So, production testing
+                        eliminates the risk in the deployment phase and promotes the frequent
                         release of the product.
                     </p>
                 </div>
@@ -186,7 +200,7 @@
                     <i class="fa-solid fa-1" id="AlphaTesting">4</i>
                     <span class="title-detail">Alpha Testing</span>
                     <p>
-                        is a software testing technique that helps testers to identify bugs for 
+                        is a software testing technique that helps testers to identify bugs for
                         launching the software to end-users.
                     </p>
                 </div>
@@ -194,16 +208,16 @@
                     <i class="fa-solid fa-1" id="BetaTesting">5</i>
                     <span class="title-detail">Beta Testing</span>
                     <p>
-                        is a type of user acceptance testing where the product team provides a 
-                        nearly finished product to a group of targeted users to evaluate its 
+                        is a type of user acceptance testing where the product team provides a
+                        nearly finished product to a group of targeted users to evaluate its
                         performance in a real-world scenario.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-      <!--Section Contact-->
-      <section class="contact" id="contact">
+    <!--Section Contact-->
+    <section class="contact" id="contact">
         <footer>
             <div class="section-container">
                 <h2 class="title-contact">Contact me</h2>
@@ -269,7 +283,9 @@
             </div>
         </footer>
     </section>
-    <script src="/Js/QA_Resume.js"></script>
+    <script src="../Js/QA_Resume.js"></script>
+    <script src="../Js/translate-theme.js"></script>
+
 </body>
 
 </html>

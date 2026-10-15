@@ -46,7 +46,7 @@ html {
 .start .section-container header nav a {
     display: block;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -56,7 +56,7 @@ html {
 .start .section-container header nav a:hover {
     display: block;
     color: rgb(150, 150, 152);
-    font-size: 21px;
+    font-size: 18px;
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
@@ -238,7 +238,7 @@ html {
 
 .contact .section-container .title-contact {
     margin-top: 50px;
-    color: #fff;
+    color: #940253;
     font-family: "Yellowtail";
 }
 
@@ -337,3 +337,4 @@ html {
         font-size: 15px;
     }
 }
+

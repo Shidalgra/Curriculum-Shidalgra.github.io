@@ -1,0 +1,109 @@
+/* ---------------------------------------------------------------------------------------------- */
+/* --- Botones fijos arriba a la derecha --- */
+.header-tools {
+    position: fixed !important;
+    top: 15px !important;
+    right: 20px !important;
+    z-index: 999999 !important;
+    display: flex !important;
+    gap: 10px !important;
+    align-items: center !important;
+}
+
+.float-btn {
+    background-color: #940253 !important;
+    color: #ffffff !important;
+    border: 1px solid #940253 !important;
+    border-radius: 30px !important;
+    padding: 0 14px !important;
+    height: 42px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-family: "Titillium Web", sans-serif !important;
+    font-weight: bold !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+.float-btn i {
+    font-size: 16px !important;
+}
+
+.float-btn:hover {
+    background-color: #adadad !important;
+    color: #d60000 !important;
+    border-color: #adadad !important;
+    box-shadow: 0 0 15px #ffffff !important;
+    transform: scale(1.05);
+}
+
+/* --- Transiciones y Modo Oscuro (Incluyendo Contactos) --- */
+.aboutme, .summary, .knowledge, .Co-WorkersContacts, .PersonalContacts, .contact {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Cuando se activa el Modo Oscuro (vuelve oscuras las secciones claras y la de contacto) */
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #e6e6e6 !important;
+}
+
+body.dark-mode .aboutme,
+body.dark-mode .summary,
+body.dark-mode .knowledge,
+body.dark-mode .Co-WorkersContacts,
+body.dark-mode .PersonalContacts,
+body.dark-mode .contact {
+    background-color: #1a1a1a !important;
+    color: #e6e6e6 !important;
+}
+
+/* --- Estilos para la sección de contactos en Modo Oscuro --- */
+body.dark-mode .contact {
+    background-color: #121212 !important; /* Fondo negro profundo */
+    color: #e6e6e6 !important; /* Letras claras */
+}
+
+/* body.dark-mode .contact h2, */
+body.dark-mode .contact h3,
+body.dark-mode .contact span,
+body.dark-mode .contact a,
+body.dark-mode .contact p {
+    color: #ffffff !important; /* Asegurar que los títulos y textos de contacto sean blancos */
+}
+
+/* Permitir que los enlaces de contacto mantengan visibilidad en modo oscuro */
+body.dark-mode .contact a:hover {
+    color: #940253 !important;
+}
+
+
+
+
+/* =========================================================
+   DESTRUCTOR DE MARCOS Y CONTENEDORES EXTERNOS NO DESEADOS
+   ========================================================= */
+.goog-te-banner-frame,
+.goog-te-banner,
+.skiptranslate,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+div[id*="goog-gt-"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    z-index: -999999 !important;
+}
+
+/* Forzar que el cuerpo de la página no se desplace ni tenga márgenes extraños */
+body {
+    top: 0px !important;
+    position: static !important;
+}

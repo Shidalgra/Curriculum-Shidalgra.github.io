@@ -76,7 +76,7 @@ body {
 
 .contact .section-container .title-contact {
     margin-top: 50px;
-    color: #fff;
+    color: #940253;
     font-family: "Yellowtail";
 }
 
@@ -123,7 +123,7 @@ body {
 .contact .section-container .info .networks a {
     display: inline-block;
     text-decoration: none;
-    background-color: #000;
+    background-color: #e6e6e6;
     color: #940253;
     border: 1px solid #940253;
     border-radius: 50%;
@@ -135,9 +135,9 @@ body {
 }
 
 .contact .section-container .info .networks a:hover {
-    color: #fff;
+    color: #1e1e1e;
     background-color: #940253;
-    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px #343333;
 }
 
 
@@ -237,13 +237,14 @@ body {
     }
 
     .contact .section-container .row .col span {
-        color: #fff;
+        color: #1e1e1e;
         font-size: 15px;
     }
 
     .contact .section-container .row .col span a {
-        color: #fff;
+        color: #1e1e1e;
         font-size: 15px;
         text-decoration: none;
     }
 }
+

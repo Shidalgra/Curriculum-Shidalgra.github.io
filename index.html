@@ -9,6 +9,7 @@
     <title>CV Sergio Hidalgo Granados</title>
 
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/dark-mode.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,7 +21,8 @@
     <meta name="title" content="Shidalgra Summary">
     <meta name="description" content="Full Stack, DBA, Web Developer, QA Analyst, and UI/UX Designer">
     <meta name="author" content="Sergio Hidalgo">
-    <meta name="keywords" content="Full Stack, DBA, Web Developer, QA Analyst, UI/UX Designer, Sergio Hidalgo Granados, Costa Rica, Alajuela, Grecia, San Roque, CV, Curriculum Vitae, Resume, Professional Profile">
+    <meta name="keywords"
+        content="Full Stack, DBA, Web Developer, QA Analyst, UI/UX Designer, Sergio Hidalgo Granados, Costa Rica, Alajuela, Grecia, San Roque, CV, Curriculum Vitae, Resume, summary, Professional Profile">
     <meta name="theme-color" content="#000000">
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Shidalgra_Solution">
@@ -43,6 +45,16 @@
         <div class="section-container">
             <header>
                 <div class="nav-bar" id="nav-bar" onclick="showHideMenu()"></div>
+                <!-- Botones fijos arriba a la derecha -->
+                <div class="header-tools">
+                    <button id="translate-btn" class="float-btn">
+                        <i class="fa-solid fa-language"></i>
+                        <span id="translate-text">Traducir a Español</span>
+                    </button>
+                    <button id="theme-btn" class="float-btn">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
                 <nav id="nav" class="nav">
                     <a href="#start">Start</a>
                     <a href="#aboutme">About me</a>
@@ -198,7 +210,7 @@
                                                 <ul>
                                                     <li>
                                                         <p>
-                                                            <a href="pages/QA_Resume.html">Resume QA <span><i
+                                                            <a href="pages/QA_Summary.html">QA Summary <span><i
                                                                         class="fa-solid fa-square-arrow-up-right"></i></span></a>
                                                         </p>
                                                     </li>
@@ -1464,7 +1476,7 @@
                         <h2>Who know me</h2>
                         <span class="info-contact">
                             <a href="pages/PersonalContacts.html">
-                                <i class="fa-solid fa-address-book"></i>&nbsp; Personal let's go here &nbsp; <i
+                                <i class="fa-solid fa-address-book"></i> Personal let's go here  <i
                                     class="fa-solid fa-square-arrow-up-right"></i>
                             </a>
                         </span>
@@ -1474,7 +1486,7 @@
                         <h2>Who have worked with me</h2>
                         <span class="info-contact">
                             <a href="pages/Co-WorkersContacts.html"><i class="fa-solid fa-id-card-clip">
-                                </i>&nbsp; Co-Workers let's go here &nbsp; <i
+                                </i> Co-Workers let's go here  <i
                                     class="fa-solid fa-square-arrow-up-right"></i>
                             </a>
                         </span>
@@ -1488,6 +1500,7 @@
         </footer>
     </section>
     <script src="Js/main.js"></script>
+    <script src="Js/translate-theme.js"></script>
 </body>
 
 </html>

@@ -69,7 +69,7 @@ body {
 .start .section-container header nav a {
   display: block;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   margin-bottom: 10px;
   font-weight: bold;
@@ -79,7 +79,7 @@ body {
 .start .section-container header nav a:hover {
   display: block;
   color: rgb(150, 150, 152);
-  font-size: 21px;
+  font-size: 18px;
   text-decoration: none;
   margin-bottom: 10px;
   font-weight: bold;
@@ -668,9 +668,9 @@ body {
 
 /*Section contact ---------------------------------------------------------------------------------------------------*/
 .contact {
-  background-color: #131313;
+  background-color: #e6e6e6;
   padding: 55px 0 100px 0;
-  color: #e6e6e6;
+  color: #1e1e1e;
   text-align: center;
 }
 
@@ -687,8 +687,8 @@ body {
 
 .contact .section-container .title-contact {
   margin-top: 50px;
-  color: #fff;
   font-family: "Yellowtail";
+  color: #940253;
 }
 
 .contact .section-container .row {
@@ -705,19 +705,17 @@ body {
 }
 
 .contact .section-container .row .col span {
-  color: #fff;
   font-size: 20px;
 }
 
 .contact .section-container .row .col span a {
-  color: #fff;
   font-size: 20px;
   text-decoration: none;
+  color: #1e1e1e;
 }
 
 .contact .section-container .row .col span a:hover {
   color: rgb(150, 150, 152);
-  ;
   font-size: 21px;
   text-decoration: none;
 }
@@ -1112,3 +1110,5 @@ body {
     border-radius: 15px 15px 15px 15px;
   }
 }
+
+
